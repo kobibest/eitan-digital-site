@@ -1,0 +1,26 @@
+# איתן | דיגיטציה ארגונית
+
+> ייעוץ ארגוני לדיגיטציה של חברות וארגונים בישראל, בהובלת קובי איתן, יועץ ארגוני מוסמך. השירות כולל אבחון עומק של המערכות והתהליכים בארגון, בניית אסטרטגיה דיגיטלית מלאה, ביצוע והטמעה: החלפה או התאמה של CRM, ERP מותאם כשזה מוצדק, בוטים למענה פנימי וחיצוני, אוטומציה של פעולות יומיומיות, חסימת נקודות טעות וחיבור בין מערכות.
+
+## עבודות לדוגמה
+- התאחדות יועצי המשכנתאות (כ־1,900 יועצים): הובלת הדיגיטציה של הארגון כפרויקטור דיגיטציה מאז אפריל 2025. מערכת ניהול ארגונית מחוברת למייל, לווצאפ, לבוט ולסליקה, דיוור וחתימה דיגיטלית פנימיים, סידור הוראות קבע, מעבר ל־Google Workspace, מערכת כנסים ואתר ופורטל חדשים.
+- מערכת איתן: CRM למשרדי ייעוץ משכנתאות, מוטמעת במשרדי ייעוץ גדולים ומשמשת מאות יועצים.
+- מערכת לניהול כנסים ונופשים: משמשת כמה ארגונים.
+- משרד ייעוץ המשכנתאות של קובי איתן: עובד דיגיטלי ואוטומטי מקצה לקצה.
+
+## דפים
+- [דף הבית](https://digital.m-eitan.co.il/): השיטה, עבודות לדוגמה, שאלות נפוצות ויצירת קשר
+- [מערכת לניהול כנסים ונופשים](https://digital.m-eitan.co.il/conferences): רישום, שיבוץ חדרים וטיסות ותשלומים
+- [ווצאפ רשמי לארגונים](https://digital.m-eitan.co.il/whatsapp): WhatsApp Business API מחובר למערכות הארגון
+- [בוט הדגמה בווצאפ](https://wa.me/97286430500): בוט חי שמדגים איסוף מסמכים, זיהוי וניתוח שלהם ומענה מבוסס AI
+- [הטמעת מערכת איתן](https://digital.m-eitan.co.il/eitan): CRM למשרדי ייעוץ משכנתאות
+
+## English
+- [Home](https://digital.m-eitan.co.il/en): digital transformation consulting for organizations in Israel
+- [Conference and retreat management](https://digital.m-eitan.co.il/en/conferences)
+- [Official WhatsApp for organizations](https://digital.m-eitan.co.il/en/whatsapp): WhatsApp Business API through Eitan Connect
+- [Eitan CRM for mortgage advisory firms](https://digital.m-eitan.co.il/en/eitan)
+
+## יצירת קשר
+- מייל: kobi@eitan-m.co.il
+- לינקדאין: https://www.linkedin.com/in/kobi-eitan-03a4b3235
