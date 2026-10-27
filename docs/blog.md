@@ -22,7 +22,7 @@ Source lives in `content/blog/<slug>.html` (JSON meta block + body HTML). `tools
 - Kobi is a "יועץ ארגוני מוסמך". Never "licensed".
 
 ## Topic backlog (Hebrew keyword in parentheses)
-- [x] Weak points in business processes (ייעול תהליכים בעסק) — published 2026-10-27 as business-process-weak-points
+- [x] Weak points in business processes (ייעול תהליכים בעסק): published 2026-10-27 as business-process-weak-points
 - [ ] Which tasks to automate first in a small business (אוטומציה לעסק קטן)
 - [ ] WhatsApp bot for a business: what it can and cannot do (בוט ווצאפ לעסק)
 - [ ] How to choose a CRM without regretting it a year later (איך לבחור CRM)
