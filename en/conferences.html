@@ -111,6 +111,22 @@
       </ol>
     </section>
 
+    <section id="reviews" aria-labelledby="reviewsH">
+      <p class="eyebrow">Testimonials</p>
+      <h2 id="reviewsH">What production companies using the system say</h2>
+      <div class="reviews two">
+        <figure class="review">
+          <blockquote><p>Kobi built a system to manage our conferences: registration, payments and room allocation are now in one place, instead of forms, spreadsheets and outdated systems. Kobi explained everything patiently and in plain language.</p><p>He quickly understood what we needed and built something that's comfortable for us to work with. He was available for every question and delivered what he promised. I warmly recommend him, and I'll definitely turn to him again.</p></blockquote>
+          <figcaption><b>Rachel, Ofek Productions</b><span>Conference and retreat management: registration, payments, rooms and flights</span></figcaption>
+        </figure>
+        <figure class="review">
+          <blockquote><p>Working with Eitan was very professional and pleasant. On a large project that also required work in the evenings, he was available to us beyond working hours and responded quickly to additional needs that came up during registration.</p><p>He added features and improved the system along the way so it would fit our needs better and more precisely, all with good cheer, patience and a pleasant attitude. I warmly recommend him!</p></blockquote>
+          <figcaption><b>Maman Productions</b><span>Management system for a professional conference with accommodation</span></figcaption>
+        </figure>
+      </div>
+      <p class="note reviews-src">Translated from Hebrew. The original reviews were posted on my <a href="https://www.xplace.com/il/u/user1790252229559" target="_blank" rel="noopener">Xplace</a> profile.</p>
+    </section>
+
     <section id="faq" aria-labelledby="faqH">
       <p class="eyebrow">FAQ</p>
       <h2 id="faqH">Questions about the conference management system</h2>
@@ -132,11 +148,13 @@
         </div>
         <form id="lead" data-subject="Demo: conference system (EN)">
           <label>Name<input name="name" autocomplete="name" required></label>
-          <label>Organization<input name="org" autocomplete="organization"></label>
-          <label>Phone or email<input name="contact" autocomplete="email" required></label>
+          <label>Organization <small>(optional)</small><input name="org" autocomplete="organization"></label>
+          <label>Phone<input name="phone" type="tel" inputmode="tel" autocomplete="tel" required></label>
+          <label>Email <small>(optional)</small><input name="email" type="email" autocomplete="email"></label>
           <label>Tell me about the event<textarea name="msg" required></textarea></label>
           <button class="btn solid" type="submit">Book a demo</button>
           <p class="note" id="formNote">Your message goes straight to me.</p>
+          <p class="note">Your details are only used to get back to you. <a href="/privacy">Privacy policy</a></p>
         </form>
       </div>
     </section>

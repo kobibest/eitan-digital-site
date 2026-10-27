@@ -136,11 +136,13 @@
         </div>
         <form id="lead" data-subject="Demo: Eitan CRM (EN)">
           <label>Name<input name="name" autocomplete="name" required></label>
-          <label>Firm<input name="org" autocomplete="organization"></label>
-          <label>Phone or email<input name="contact" autocomplete="email" required></label>
+          <label>Firm <small>(optional)</small><input name="org" autocomplete="organization"></label>
+          <label>Phone<input name="phone" type="tel" inputmode="tel" autocomplete="tel" required></label>
+          <label>Email <small>(optional)</small><input name="email" type="email" autocomplete="email"></label>
           <label>Tell me about the firm<textarea name="msg" required></textarea></label>
           <button class="btn solid" type="submit">Book a demo</button>
           <p class="note" id="formNote">Your message goes straight to me.</p>
+          <p class="note">Your details are only used to get back to you. <a href="/privacy">Privacy policy</a></p>
         </form>
       </div>
     </section>

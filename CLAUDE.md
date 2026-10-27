@@ -20,10 +20,13 @@ Local test: `OG_LOCAL_FONTS=/path/to/ttf-dir python3 build_og.py` (expects hebre
 ## Content rules
 - Hebrew copy: human, precise, no AI-sounding phrasing, no em dashes in English copy.
 - Kobi is a "יועץ ארגוני מוסמך" (certified organizational consultant). Never call him a "licensed" mortgage advisor.
+- Testimonials (real, from Xplace) live in `#reviews` on the home pages and the conferences pages. Never invent reviews.
+- Photos of Kobi are in `img/` (webp, generated from originals). The homepage offer is a free ~20 minute initial consultation.
 - Demo WhatsApp bot: https://wa.me/97286430500
 - Contact: kobi@eitan-m.co.il
 
 ## Tracking (do not remove)
 - Google Analytics 4 `G-H1X9EHS4XM`: gtag snippet right after `<head>` on every page. New pages must include it.
-- `site.js` sends GA events: `whatsapp_click`, `email_click`, `generate_lead` (contact form success).
+- `site.js` sends GA events: `whatsapp_click`, `email_click`, `form_start` (first input in the contact form), `generate_lead` (contact form success).
+- `site.js` also injects a sticky mobile CTA (copied from the nav `.cta`) on pages that have `#contact`.
 - Google Search Console verification: `<meta name="google-site-verification">` in `index.html` head.

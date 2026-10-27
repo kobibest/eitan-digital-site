@@ -7,6 +7,19 @@
     var a=document.createElement('a');a.className='lang';a.lang='en';a.hreflang='en';a.textContent='English';a.href=map[p]||'/en';
     var cta=nav.querySelector('.cta');nav.insertBefore(a,cta);
   }
+  // Sticky CTA on mobile, hidden while the contact section is on screen
+  var navCta=nav&&nav.querySelector('.cta'), contactSec=document.getElementById('contact');
+  if(navCta&&contactSec){
+    var bar=document.createElement('div');bar.className='sticky-cta';
+    var b=document.createElement('a');b.className='btn solid';b.href=navCta.getAttribute('href');b.textContent=navCta.textContent;
+    bar.appendChild(b);document.body.appendChild(bar);document.body.classList.add('has-sticky');
+    var hero=document.querySelector('.hero .btns'),heroVis=true,contactVis=false;
+    var upd=function(){bar.classList.toggle('show',!heroVis&&!contactVis);};
+    if('IntersectionObserver' in window){
+      new IntersectionObserver(function(es){es.forEach(function(e){if(e.target===contactSec)contactVis=e.isIntersecting;else heroVis=e.isIntersecting;});upd();}).observe(contactSec);
+      if(hero)new IntersectionObserver(function(es){heroVis=es[0].isIntersecting;upd();}).observe(hero);else{heroVis=false;upd();}
+    }else{heroVis=false;upd();}
+  }
   // Analytics events: WhatsApp clicks and email clicks
   document.addEventListener('click',function(e){
     var a=e.target.closest&&e.target.closest('a[href]'); if(!a||typeof gtag!=='function')return;
@@ -21,12 +34,15 @@
   var T=EN?{ready:'Your message goes straight to me.',sending:'Sending...',sent:'Sent',ok:"Thanks, your message was sent. I'll get back to you soon.",fail:'Sending failed. You can email me directly at kobi@eitan-m.co.il',def:'Website inquiry',from:'Eitan website (English)'}
          :{ready:'הפנייה תישלח ישירות אליי.',sending:'שולח...',sent:'נשלח',ok:'הפנייה נשלחה. אחזור אליכם בהקדם.',fail:'השליחה לא הצליחה. אפשר לכתוב ישירות ל־kobi@eitan-m.co.il',def:'פנייה מהאתר',from:'אתר איתן | דיגיטציה ארגונית'};
   if(note)note.textContent=T.ready;
+  var started=false;
+  f.addEventListener('input',function(){if(started)return;started=true;if(typeof gtag==='function')gtag('event','form_start',{form_subject:f.getAttribute('data-subject')||'',page_path:location.pathname});});
   f.addEventListener('submit',function(e){
     e.preventDefault();
     var subject=(f.getAttribute('data-subject')||T.def)+' – '+f.name.value;
-    var contact=f.contact.value.trim();
-    var data={access_key:KEY,subject:subject,from_name:T.from,'שם':f.name.value,'ארגון':f.org?f.org.value:'','פרטי קשר':contact,'הודעה':f.msg.value,'עמוד':location.pathname};
-    if(/@/.test(contact))data.replyto=contact;
+    var val=function(n){return f[n]?f[n].value.trim():'';};
+    var email=val('email')||(/@/.test(val('contact'))?val('contact'):'');
+    var data={access_key:KEY,subject:subject,from_name:T.from,'שם':f.name.value,'ארגון':val('org'),'טלפון':val('phone')||val('contact'),'מייל':email,'הודעה':f.msg.value,'עמוד':location.pathname};
+    if(email)data.replyto=email;
     btn.disabled=true; var old=btn.textContent; btn.textContent=T.sending;
     fetch('https://api.web3forms.com/submit',{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(data)})
       .then(function(r){return r.json();})

@@ -153,11 +153,13 @@
         </div>
         <form id="lead" data-subject="הדגמה – ווצאפ רשמי">
           <label>שם<input name="name" autocomplete="name" required></label>
-          <label>ארגון<input name="org" autocomplete="organization"></label>
-          <label>טלפון או מייל<input name="contact" autocomplete="email" required></label>
+          <label>ארגון <small>(לא חובה)</small><input name="org" autocomplete="organization"></label>
+          <label>טלפון<input name="phone" type="tel" inputmode="tel" autocomplete="tel" required></label>
+          <label>מייל <small>(לא חובה)</small><input name="email" type="email" autocomplete="email"></label>
           <label>איך אתם משתמשים בווצאפ היום?<textarea name="msg" required></textarea></label>
           <button class="btn solid" type="submit">לתיאום הדגמה</button>
           <p class="note" id="formNote">הפנייה תישלח ישירות אליי.</p>
+          <p class="note">הפרטים משמשים רק כדי לחזור אליכם. <a href="/privacy">מדיניות פרטיות</a></p>
         </form>
       </div>
     </section>

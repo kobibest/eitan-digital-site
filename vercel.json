@@ -8,7 +8,7 @@
   "trailingSlash": false,
   "headers": [
     {
-      "source": "/(.*)\\.(png|svg|css|js)",
+      "source": "/(.*)\\.(png|svg|webp|css|js)",
       "headers": [
         {
           "key": "Cache-Control",
