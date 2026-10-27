@@ -10,6 +10,7 @@ Every push to `main` deploys to production.
 - `styles.css` base, `extra.css` additions, `site.js` (contact form via Web3Forms + injects the "English" switcher on Hebrew pages)
 - Blog (Hebrew): `content/blog/*.html` → `python3 tools/blog.py` → `blog/`. Workflow, writing rules and topic backlog: `docs/blog.md`. Articles are published only after Kobi approves the draft.
 - SEO: `sitemap.xml` (with xhtml:link alternates), `robots.txt`, `llms.txt`, JSON-LD in each page head
+- CSS/JS are cached for a day: when you change `styles.css`, `extra.css` or `site.js`, bump the `?v=` query on every page and in `tools/blog.py`.
 - `vercel.json`: cleanUrls, headers, build command
 
 ## Build step (share images)

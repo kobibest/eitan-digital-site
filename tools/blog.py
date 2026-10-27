@@ -34,8 +34,8 @@ HEAD_COMMON = '''<meta charset="utf-8">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;600;700&family=IBM+Plex+Sans+Hebrew:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/styles.css">
-<link rel="stylesheet" href="/extra.css">
+<link rel="stylesheet" href="/styles.css?v=20261028">
+<link rel="stylesheet" href="/extra.css?v=20261028">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <meta name="author" content="קובי איתן">
 <meta name="theme-color" content="#171A2F">
@@ -94,7 +94,7 @@ FOOTER = '''  <footer>
     <p class="legal-line" dir="ltr" lang="en">Eitan Connect is a service of "Eitan" (איתן), a registered Israeli business (Osek Murshe) · <a href="mailto:kobi@eitan-m.co.il">kobi@eitan-m.co.il</a> · <a href="/privacy">Privacy</a> · <a href="/terms">Terms</a> · <a href="/data-deletion">Data Deletion</a></p>
   </footer>
 </div>
-<script src="/site.js"></script>
+<script src="/site.js?v=20261028"></script>
 </body>
 </html>
 '''

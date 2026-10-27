@@ -63,8 +63,9 @@ nav.top a.lang{border:1px solid var(--line);padding:6px 12px;border-radius:8px;c
 .reviews-src a{color:var(--green-text)}
 
 /* why: photo */
-.why-side{display:grid;gap:16px}
-.portrait{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:18px;border:1px solid var(--line)}
+.why>*{min-width:0}
+.why-side{display:grid;gap:16px;min-width:0}
+.portrait{display:block;width:100%;max-width:440px;height:auto;max-height:280px;aspect-ratio:3/2;object-fit:cover;object-position:center 30%;border-radius:18px;border:1px solid var(--line)}
 
 /* contact: next steps + face */
 .next{margin:18px 0 22px;padding:0;list-style:none;counter-reset:n;display:grid;gap:10px}
