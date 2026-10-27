@@ -18,17 +18,17 @@ Data comes from the Make scenario "Search Console API (Claude)" (property `https
 ## Targets
 | slug | primary keyword | secondary | status |
 |---|---|---|---|
-| `ai-customer-service-bot` | בוט AI לשירות לקוחות | צ'אטבוט לעסק, צ'אטבוט לשירות לקוחות, העברה לנציג אנושי, מאגר ידע לבוט | draft |
-| `automation-roi` | החזר השקעה אוטומציה | כדאיות אוטומציה, ROI אוטומציה, תקופת החזר, חישוב חיסכון בשעות עבודה | draft |
+| `ai-customer-service-bot` | בוט AI לשירות לקוחות | צ'אטבוט לעסק, צ'אטבוט לשירות לקוחות, העברה לנציג אנושי, מאגר ידע לבוט | published 2026-10-28 |
+| `automation-roi` | החזר השקעה אוטומציה | כדאיות אוטומציה, ROI אוטומציה, תקופת החזר, חישוב חיסכון בשעות עבודה | published 2026-10-28 |
 | `business-process-weak-points` | ייעול תהליכים בעסק | נקודות תורפה בעסק, צווארי בקבוק, מיפוי תהליכים עסקיים | published |
-| `connecting-business-systems` | חיבור בין מערכות | אינטגרציה בין מערכות, חיבור CRM להנהלת חשבונות, חיבור סליקה למערכת, אוטומציה בין מערכות | draft |
-| `excel-to-system` | מעבר מאקסל למערכת | ניהול עסק באקסל, מאקסל למערכת ניהול, העברת נתונים מאקסל, חסרונות אקסל לניהול עסק | draft |
-| `how-to-choose-crm` | איך לבחור CRM | מערכת CRM לעסק קטן, בחירת מערכת CRM, השוואת מערכות CRM, החלפת CRM | draft |
-| `small-business-automation` | אוטומציה לעסק קטן | אוטומציות לעסקים, אוטומציה עסקית, כלי אוטומציה לעסקים, אוטומציה של משימות חוזרות | draft |
-| `small-business-digitization` | דיגיטציה לעסק קטן | טרנספורמציה דיגיטלית לעסקים קטנים, דיגיטציה של עסק, תוכנית דיגיטלית לעסק, מעבר לעבודה דיגיטלית | draft |
-| `system-adoption` | הטמעת מערכת בארגון | הטמעת מערכת מידע, ניהול שינוי בארגון, התנגדות עובדים לשינוי, הטמעת CRM, הדרכת עובדים על מערכת חדשה | draft |
-| `whatsapp-bot-for-business` | בוט ווצאפ לעסק | בוט וואטסאפ, צ'טבוט לווצאפ, בוט ווצאפ AI, מענה אוטומטי בווצאפ | draft |
-| `whatsapp-business-api-vs-app` | WhatsApp Business API | ווצאפ עסקי רשמי, ווצאפ ביזנס, וואטסאפ API, חסימת מספר ווצאפ | draft |
+| `connecting-business-systems` | חיבור בין מערכות | אינטגרציה בין מערכות, חיבור CRM להנהלת חשבונות, חיבור סליקה למערכת, אוטומציה בין מערכות | published 2026-10-28 |
+| `excel-to-system` | מעבר מאקסל למערכת | ניהול עסק באקסל, מאקסל למערכת ניהול, העברת נתונים מאקסל, חסרונות אקסל לניהול עסק | published 2026-10-28 |
+| `how-to-choose-crm` | איך לבחור CRM | מערכת CRM לעסק קטן, בחירת מערכת CRM, השוואת מערכות CRM, החלפת CRM | published 2026-10-28 |
+| `small-business-automation` | אוטומציה לעסק קטן | אוטומציות לעסקים, אוטומציה עסקית, כלי אוטומציה לעסקים, אוטומציה של משימות חוזרות | published 2026-10-28 |
+| `small-business-digitization` | דיגיטציה לעסק קטן | טרנספורמציה דיגיטלית לעסקים קטנים, דיגיטציה של עסק, תוכנית דיגיטלית לעסק, מעבר לעבודה דיגיטלית | published 2026-10-28 |
+| `system-adoption` | הטמעת מערכת בארגון | הטמעת מערכת מידע, ניהול שינוי בארגון, התנגדות עובדים לשינוי, הטמעת CRM, הדרכת עובדים על מערכת חדשה | published 2026-10-28 |
+| `whatsapp-bot-for-business` | בוט ווצאפ לעסק | בוט וואטסאפ, צ'טבוט לווצאפ, בוט ווצאפ AI, מענה אוטומטי בווצאפ | published 2026-10-28 |
+| `whatsapp-business-api-vs-app` | WhatsApp Business API | ווצאפ עסקי רשמי, ווצאפ ביזנס, וואטסאפ API, חסימת מספר ווצאפ | published 2026-10-28 |
 
 ## Search Console log
 - 2026-10-27: property verified, sitemap submitted 2026-10-24 (11 URLs, 0 indexed yet). No query data yet, the site is new.

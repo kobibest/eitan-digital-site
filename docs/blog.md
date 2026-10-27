@@ -23,19 +23,19 @@ Source lives in `content/blog/<slug>.html` (JSON meta block + body HTML). `tools
 
 ## Topic backlog (Hebrew keyword in parentheses)
 - [x] Weak points in business processes (ייעול תהליכים בעסק): published 2026-10-27 as business-process-weak-points
-- [~] Which tasks to automate first in a small business (אוטומציה לעסק קטן): drafted 2026-10-28, awaiting approval
-- [~] WhatsApp bot for a business: what it can and cannot do (בוט ווצאפ לעסק): drafted 2026-10-28, awaiting approval
-- [~] How to choose a CRM without regretting it a year later (איך לבחור CRM): drafted 2026-10-28, awaiting approval
-- [~] When Excel stops being enough (מעבר מאקסל למערכת): drafted 2026-10-28, awaiting approval
-- [~] Official WhatsApp Business API vs regular WhatsApp Business (ווצאפ עסקי API): drafted 2026-10-28, awaiting approval
-- [~] Connecting systems: accounting, payments, CRM (חיבור בין מערכות / אינטגרציה): drafted 2026-10-28, awaiting approval
+- [x] Which tasks to automate first in a small business (אוטומציה לעסק קטן): published 2026-10-28
+- [x] WhatsApp bot for a business: what it can and cannot do (בוט ווצאפ לעסק): published 2026-10-28
+- [x] How to choose a CRM without regretting it a year later (איך לבחור CRM): published 2026-10-28
+- [x] When Excel stops being enough (מעבר מאקסל למערכת): published 2026-10-28
+- [x] Official WhatsApp Business API vs regular WhatsApp Business (ווצאפ עסקי API): published 2026-10-28
+- [x] Connecting systems: accounting, payments, CRM (חיבור בין מערכות / אינטגרציה): published 2026-10-28
 - [ ] Managing a conference or retreat registration without spreadsheets (ניהול רישום לכנס)
 - [ ] Automatic document reading and data entry (קליטת מסמכים אוטומטית)
-- [~] Digital transformation for small businesses: where to start (דיגיטציה לעסק קטן): drafted 2026-10-28, awaiting approval
-- [~] How to calculate the ROI of automation (החזר השקעה אוטומציה): drafted 2026-10-28, awaiting approval
-- [~] Getting a team to actually adopt a new system (הטמעת מערכת בארגון): drafted 2026-10-28, awaiting approval
+- [x] Digital transformation for small businesses: where to start (דיגיטציה לעסק קטן): published 2026-10-28
+- [x] How to calculate the ROI of automation (החזר השקעה אוטומציה): published 2026-10-28
+- [x] Getting a team to actually adopt a new system (הטמעת מערכת בארגון): published 2026-10-28
 - [ ] Recurring payments and standing orders: avoiding failed charges (הוראות קבע / סליקה)
-- [~] AI bots for customer service: a practical guide (בוט AI לשירות לקוחות): drafted 2026-10-28, awaiting approval
+- [x] AI bots for customer service: a practical guide (בוט AI לשירות לקוחות): published 2026-10-28
 - [ ] Amendment 13 to the Privacy Protection Law for small businesses (תיקון 13 לחוק הגנת הפרטיות)
 - [ ] Automatic reminders that cut no-shows (תזכורות אוטומטיות ללקוחות)
 - [ ] Custom ERP vs off-the-shelf: when each makes sense (ERP מותאם אישית)
