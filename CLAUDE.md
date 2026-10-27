@@ -22,3 +22,8 @@ Local test: `OG_LOCAL_FONTS=/path/to/ttf-dir python3 build_og.py` (expects hebre
 - Kobi is a "יועץ ארגוני מוסמך" (certified organizational consultant). Never call him a "licensed" mortgage advisor.
 - Demo WhatsApp bot: https://wa.me/97286430500
 - Contact: kobi@eitan-m.co.il
+
+## Tracking (do not remove)
+- Google Analytics 4 `G-H1X9EHS4XM`: gtag snippet right after `<head>` on every page. New pages must include it.
+- `site.js` sends GA events: `whatsapp_click`, `email_click`, `generate_lead` (contact form success).
+- Google Search Console verification: `<meta name="google-site-verification">` in `index.html` head.

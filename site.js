@@ -7,6 +7,13 @@
     var a=document.createElement('a');a.className='lang';a.lang='en';a.hreflang='en';a.textContent='English';a.href=map[p]||'/en';
     var cta=nav.querySelector('.cta');nav.insertBefore(a,cta);
   }
+  // Analytics events: WhatsApp clicks and email clicks
+  document.addEventListener('click',function(e){
+    var a=e.target.closest&&e.target.closest('a[href]'); if(!a||typeof gtag!=='function')return;
+    var h=a.getAttribute('href');
+    if(/wa\.me\//.test(h))gtag('event','whatsapp_click',{link_url:h,page_path:location.pathname});
+    else if(/^mailto:/.test(h))gtag('event','email_click',{page_path:location.pathname});
+  });
   var KEY='55804344-6275-4e9e-995e-75155ee5fc93';
   var f=document.getElementById('lead'); if(!f)return;
   var note=document.getElementById('formNote');
@@ -24,7 +31,7 @@
     fetch('https://api.web3forms.com/submit',{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(data)})
       .then(function(r){return r.json();})
       .then(function(j){
-        if(j&&j.success){f.reset(); if(note)note.textContent=T.ok; btn.textContent=T.sent;}
+        if(j&&j.success){if(typeof gtag==='function')gtag('event','generate_lead',{form_subject:f.getAttribute('data-subject')||'',page_path:location.pathname});f.reset(); if(note)note.textContent=T.ok; btn.textContent=T.sent;}
         else throw new Error();
       })
       .catch(function(){
