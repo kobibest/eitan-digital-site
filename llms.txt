@@ -24,6 +24,12 @@
 - [בוט הדגמה בווצאפ](https://wa.me/97286430500): בוט חי שמדגים איסוף מסמכים, זיהוי וניתוח שלהם ומענה מבוסס AI
 - [הטמעת מערכת איתן](https://digital.m-eitan.co.il/eitan): CRM למשרדי ייעוץ משכנתאות
 
+<!-- blog:start -->
+## מאמרים
+- [כל המאמרים](https://digital.m-eitan.co.il/blog)
+- [איך לזהות את נקודות התורפה בתהליכים של העסק, ומה לתקן קודם](https://digital.m-eitan.co.il/blog/business-process-weak-points): 7 סימנים שמסגירים נקודת תורפה, תרגיל של שעה למיפוי תהליך אחד, וחישוב פשוט שמראה מה הכי שווה לתקן קודם.
+<!-- blog:end -->
+
 ## English
 Eitan is a digital transformation consultancy for companies and organizations in Israel, led by Kobi Eitan, a certified organizational consultant. Work starts with an in-depth diagnosis of systems and processes, continues with a prioritized digital strategy, and ends with hands-on rollout: CRM replacement or adaptation, a custom ERP when justified, internal and external bots, automation of daily tasks and system integrations. Clients include the Israel Mortgage Advisors Association (about 1,900 advisors).
 

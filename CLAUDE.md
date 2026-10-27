@@ -8,6 +8,7 @@ Every push to `main` deploys to production.
 - English pages: `en/*.html` (LTR, each has `hreflang` pairs with its Hebrew twin; keep both in sync)
 - Legal (bilingual, needed for Meta Tech Provider / Eitan Connect): `privacy.html`, `terms.html`, `data-deletion.html` — keep the footer `legal-line` on all pages
 - `styles.css` base, `extra.css` additions, `site.js` (contact form via Web3Forms + injects the "English" switcher on Hebrew pages)
+- Blog (Hebrew): `content/blog/*.html` → `python3 tools/blog.py` → `blog/`. Workflow, writing rules and topic backlog: `docs/blog.md`. Articles are published only after Kobi approves the draft.
 - SEO: `sitemap.xml` (with xhtml:link alternates), `robots.txt`, `llms.txt`, JSON-LD in each page head
 - `vercel.json`: cleanUrls, headers, build command
 
@@ -22,6 +23,7 @@ Local test: `OG_LOCAL_FONTS=/path/to/ttf-dir python3 build_og.py` (expects hebre
 - Kobi is a "יועץ ארגוני מוסמך" (certified organizational consultant). Never call him a "licensed" mortgage advisor.
 - Testimonials (real, from Xplace) live in `#reviews` on the home pages and the conferences pages. Never invent reviews.
 - Photos of Kobi are in `img/` (webp, generated from originals). The homepage offer is a free ~20 minute initial consultation.
+- Kobi's personal WhatsApp (sticky mobile bar, contact notes): https://wa.me/972532208816
 - Demo WhatsApp bot: https://wa.me/97286430500
 - Contact: kobi@eitan-m.co.il
 
@@ -29,4 +31,5 @@ Local test: `OG_LOCAL_FONTS=/path/to/ttf-dir python3 build_og.py` (expects hebre
 - Google Analytics 4 `G-H1X9EHS4XM`: gtag snippet right after `<head>` on every page. New pages must include it.
 - `site.js` sends GA events: `whatsapp_click`, `email_click`, `form_start` (first input in the contact form), `generate_lead` (contact form success).
 - `site.js` also injects a sticky mobile CTA (copied from the nav `.cta`) on pages that have `#contact`.
+- Microsoft Clarity `z4hj73vzhz`: snippet right after the gtag snippet on every page. New pages must include it.
 - Google Search Console verification: `<meta name="google-site-verification">` in `index.html` head.
