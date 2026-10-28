@@ -37,6 +37,6 @@ Source lives in `content/blog/<slug>.html` (JSON meta block + body HTML). `tools
 - [ ] Recurring payments and standing orders: avoiding failed charges (הוראות קבע / סליקה)
 - [x] AI bots for customer service: a practical guide (בוט AI לשירות לקוחות): published 2026-10-28
 - [ ] Amendment 13 to the Privacy Protection Law for small businesses (תיקון 13 לחוק הגנת הפרטיות)
-- [ ] Automatic reminders that cut no-shows (תזכורות אוטומטיות ללקוחות)
+- [~] Automatic reminders that cut no-shows (תזכורות אוטומטיות ללקוחות): drafted 2026-10-28, awaiting approval
 - [ ] Custom ERP vs off-the-shelf: when each makes sense (ERP מותאם אישית)
 - [ ] Mapping a customer journey from lead to payment (מסע לקוח)
