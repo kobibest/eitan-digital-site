@@ -29,7 +29,7 @@ Source lives in `content/blog/<slug>.html` (JSON meta block + body HTML). `tools
 - [x] When Excel stops being enough (מעבר מאקסל למערכת): published 2026-10-28
 - [x] Official WhatsApp Business API vs regular WhatsApp Business (ווצאפ עסקי API): published 2026-10-28
 - [x] Connecting systems: accounting, payments, CRM (חיבור בין מערכות / אינטגרציה): published 2026-10-28
-- [ ] Managing a conference or retreat registration without spreadsheets (ניהול רישום לכנס)
+- [~] Managing a conference or retreat registration without spreadsheets (ניהול רישום לכנס): drafted 2026-10-29, awaiting approval
 - [ ] Automatic document reading and data entry (קליטת מסמכים אוטומטית)
 - [x] Digital transformation for small businesses: where to start (דיגיטציה לעסק קטן): published 2026-10-28
 - [x] How to calculate the ROI of automation (החזר השקעה אוטומציה): published 2026-10-28
