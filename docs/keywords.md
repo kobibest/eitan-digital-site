@@ -30,6 +30,7 @@ Data comes from the Make scenario "Search Console API (Claude)" (property `https
 | `whatsapp-bot-for-business` | בוט ווצאפ לעסק | בוט וואטסאפ, צ'טבוט לווצאפ, בוט ווצאפ AI, מענה אוטומטי בווצאפ | published 2026-10-28 |
 | `whatsapp-business-api-vs-app` | WhatsApp Business API | ווצאפ עסקי רשמי, ווצאפ ביזנס, וואטסאפ API, חסימת מספר ווצאפ | published 2026-10-28 |
 | `automatic-customer-reminders` | תזכורות אוטומטיות ללקוחות | תזכורת לתור בווצאפ, אי הגעה לתור, הפחתת ביטולים, הודעות SMS ללקוחות | published 2026-10-28 |
+| `conference-management-system-review` | מערכת לניהול כנסים | מערכת רישום לכנסים, ניהול נופש לארגון, שיבוץ חדרים לכנס, ניהול אירועים לארגונים | published 2026-10-30 |
 
 ## Search Console log
 - 2026-10-27: property verified, sitemap submitted 2026-10-24 (11 URLs, 0 indexed yet). No query data yet, the site is new.
