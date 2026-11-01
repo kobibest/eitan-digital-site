@@ -31,10 +31,11 @@ Data comes from the Make scenario "Search Console API (Claude)" (property `https
 | `whatsapp-business-api-vs-app` | WhatsApp Business API | ווצאפ עסקי רשמי, ווצאפ ביזנס, וואטסאפ API, חסימת מספר ווצאפ | published 2026-10-28 |
 | `automatic-customer-reminders` | תזכורות אוטומטיות ללקוחות | תזכורת לתור בווצאפ, אי הגעה לתור, הפחתת ביטולים, הודעות SMS ללקוחות | published 2026-10-28 |
 | `conference-management-system-review` | מערכת לניהול כנסים | מערכת רישום לכנסים, ניהול נופש לארגון, שיבוץ חדרים לכנס, ניהול אירועים לארגונים | published 2026-10-30 |
+| `eitan-crm-mortgage-advisors-review` | CRM ליועצי משכנתאות | מערכת לניהול משרד ייעוץ משכנתאות, תוכנה ליועצי משכנתאות, מערכת איתן, ניהול תיקי משכנתא | published 2026-11-01 |
 
 ## Search Console log
 - 2026-10-27: property verified, sitemap submitted 2026-10-24 (11 URLs, 0 indexed yet). No query data yet, the site is new.
 - 2026-11-01 (28 days to 2026-10-31): first data. 0 clicks overall, 25 URLs submitted, 0 reported indexed in the sitemap report (impressions show some pages are already served).
   - Pages by impressions: /conferences 10 (avg pos 29.7), /eitan 7 (pos 4.3), blog/small-business-automation 7 (pos 71.6), /privacy 6, /terms 6, /en 5, /en/conferences 4 (pos 11.5), /, /blog, /whatsapp, blog/connecting-business-systems (pos 14.3), blog/whatsapp-business-api-vs-app (pos 28) 3 each.
   - Queries: "אוטומציה לעסקים קטנים" 6 impr pos 69.5 (small-business-automation); "איך לבצע אינטגרציה בין מערכת הסליקה לבין מערכת הנהלת החשבונות שלי?" 2 impr pos 5 (connecting-business-systems); "הטמעת מערכת מידע חדשה בארגון" 2 impr pos 19 (system-adoption); "רישום לכנסים" 3 impr pos 59.7 and "מערכת רישום לכנסים" 1 impr pos 73 (/conferences); "וואטסאפ עסקי יתרונות וחסרונות" 1 impr pos 14 and "וואטסאפ ביזנס" 2 impr pos 35 (whatsapp-business-api-vs-app); "שילוב מערכות תשלום באתר" 1 impr pos 33; "איך לעשות אוטומציה לעסק" 1 impr pos 84.
-  - Actions proposed to Kobi: clearing-to-accounting FAQ in connecting-business-systems; "מערכת מידע חדשה" phrasing in system-adoption; a pros/cons section in whatsapp-business-api-vs-app. /eitan ranks well (pos 4.3), so the Eitan CRM review was written to support it.
+  - Approved and applied 2026-11-01 (updated dates bumped). Actions: clearing-to-accounting FAQ in connecting-business-systems; "מערכת מידע חדשה" phrasing in system-adoption; a pros/cons section in whatsapp-business-api-vs-app. /eitan ranks well (pos 4.3), so the Eitan CRM review was written to support it.
