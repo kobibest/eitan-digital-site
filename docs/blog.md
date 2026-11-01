@@ -30,7 +30,7 @@ Source lives in `content/blog/<slug>.html` (JSON meta block + body HTML). `tools
 - [x] Official WhatsApp Business API vs regular WhatsApp Business (ווצאפ עסקי API): published 2026-10-28
 - [x] Connecting systems: accounting, payments, CRM (חיבור בין מערכות / אינטגרציה): published 2026-10-28
 - [x] Conference system review (מערכת לניהול כנסים): published 2026-10-30 as conference-management-system-review. Replaces the how-to draft Kobi rejected on 2026-10-29 (he prefers a review of his own system). Prefer product-focused articles for his systems.
-- [ ] Automatic document reading and data entry (קליטת מסמכים אוטומטית)
+- [~] Eitan CRM review (CRM ליועצי משכנתאות), covers automatic document reading: drafted 2026-11-01, awaiting approval
 - [x] Digital transformation for small businesses: where to start (דיגיטציה לעסק קטן): published 2026-10-28
 - [x] How to calculate the ROI of automation (החזר השקעה אוטומציה): published 2026-10-28
 - [x] Getting a team to actually adopt a new system (הטמעת מערכת בארגון): published 2026-10-28
