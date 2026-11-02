@@ -32,6 +32,7 @@ Data comes from the Make scenario "Search Console API (Claude)" (property `https
 | `automatic-customer-reminders` | תזכורות אוטומטיות ללקוחות | תזכורת לתור בווצאפ, אי הגעה לתור, הפחתת ביטולים, הודעות SMS ללקוחות | published 2026-10-28 |
 | `conference-management-system-review` | מערכת לניהול כנסים | מערכת רישום לכנסים, ניהול נופש לארגון, שיבוץ חדרים לכנס, ניהול אירועים לארגונים | published 2026-10-30 |
 | `eitan-crm-mortgage-advisors-review` | CRM ליועצי משכנתאות | מערכת לניהול משרד ייעוץ משכנתאות, תוכנה ליועצי משכנתאות, מערכת איתן, ניהול תיקי משכנתא | published 2026-11-01 |
+| `official-whatsapp-eitan-connect-review` | ווצאפ רשמי לארגונים | חיבור ווצאפ ל-CRM, WhatsApp Business API לארגון, הודעות ווצאפ אוטומטיות, Eitan Connect | published 2026-11-02 |
 
 ## Search Console log
 - 2026-10-27: property verified, sitemap submitted 2026-10-24 (11 URLs, 0 indexed yet). No query data yet, the site is new.
