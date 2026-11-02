@@ -34,6 +34,7 @@ Source lives in `content/blog/<slug>.html` (JSON meta block + body HTML). `tools
 - [x] Digital transformation for small businesses: where to start (דיגיטציה לעסק קטן): published 2026-10-28
 - [x] How to calculate the ROI of automation (החזר השקעה אוטומציה): published 2026-10-28
 - [x] Getting a team to actually adopt a new system (הטמעת מערכת בארגון): published 2026-10-28
+- [~] Official WhatsApp system review (ווצאפ רשמי לארגונים): drafted 2026-11-02, awaiting approval
 - [ ] Recurring payments and standing orders: avoiding failed charges (הוראות קבע / סליקה)
 - [x] AI bots for customer service: a practical guide (בוט AI לשירות לקוחות): published 2026-10-28
 - [ ] Amendment 13 to the Privacy Protection Law for small businesses (תיקון 13 לחוק הגנת הפרטיות)
