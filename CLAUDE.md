@@ -21,7 +21,7 @@ Local test: `OG_LOCAL_FONTS=/path/to/ttf-dir python3 build_og.py` (expects hebre
 
 ## Content rules
 - Hebrew copy: human, precise, no AI-sounding phrasing, no em dashes in English copy.
-- Kobi is a "יועץ ארגוני מוסמך" (certified organizational consultant). Never call him a "licensed" mortgage advisor.
+- Present Kobi as "מומחה להטמעת דיגיטציה בעסקים" (business digitization implementation expert). Do not present him as an organizational consultant ("יועץ ארגוני"), and never call him a "licensed" mortgage advisor.
 - Testimonials (real, from Xplace) live in `#reviews` on the home pages and the conferences pages. Never invent reviews.
 - Photos of Kobi are in `img/` (webp, generated from originals). The homepage offer is a free ~20 minute initial consultation.
 - Kobi's personal WhatsApp (sticky mobile bar, contact notes): https://wa.me/972532208816

@@ -1,9 +1,9 @@
 # איתן | דיגיטציה ארגונית
 
-> ייעוץ ארגוני לדיגיטציה של עסקים, חברות וארגונים בישראל, בהובלת קובי איתן, יועץ ארגוני מוסמך. השירות כולל אבחון עומק של המערכות והתהליכים בארגון, בניית אסטרטגיה דיגיטלית מלאה, ביצוע והטמעה: החלפה או התאמה של CRM, ERP מותאם כשזה מוצדק, בוטים למענה פנימי וחיצוני, אוטומציה של פעולות יומיומיות, חסימת נקודות טעות וחיבור בין מערכות.
+> הטמעת דיגיטציה בעסקים, בחברות ובארגונים בישראל, בהובלת קובי איתן, מומחה להטמעת דיגיטציה בעסקים. השירות כולל אבחון עומק של המערכות והתהליכים בארגון, בניית אסטרטגיה דיגיטלית מלאה, ביצוע והטמעה: החלפה או התאמה של CRM, ERP מותאם כשזה מוצדק, בוטים למענה פנימי וחיצוני, אוטומציה של פעולות יומיומיות, חסימת נקודות טעות וחיבור בין מערכות.
 
 ## עובדות מרכזיות
-- מי: קובי איתן (Kobi Eitan), יועץ ארגוני מוסמך שגם מבצע ומטמיע בעצמו.
+- מי: קובי איתן (Kobi Eitan), מומחה להטמעת דיגיטציה בעסקים, שמאבחן, בונה ומטמיע בעצמו.
 - מה: דיגיטציה ארגונית בשלושה שלבים: אבחון עומק, אסטרטגיה דיגיטלית מתועדפת, ביצוע והטמעה.
 - למי: עסקים קטנים, חברות וארגונים בישראל שהעבודה בהם נשענת על אקסלים, הקלדה כפולה ותזכורות ידניות.
 - שפות: עברית ואנגלית.
@@ -45,7 +45,7 @@
 <!-- blog:end -->
 
 ## English
-Eitan is a digital transformation consultancy for companies and organizations in Israel, led by Kobi Eitan, a certified organizational consultant. Work starts with an in-depth diagnosis of systems and processes, continues with a prioritized digital strategy, and ends with hands-on rollout: CRM replacement or adaptation, a custom ERP when justified, internal and external bots, automation of daily tasks and system integrations. Clients include the Israel Mortgage Advisors Association (about 1,900 advisors).
+Eitan is a digital transformation consultancy for companies and organizations in Israel, led by Kobi Eitan, a business digitization implementation expert. Work starts with an in-depth diagnosis of systems and processes, continues with a prioritized digital strategy, and ends with hands-on rollout: CRM replacement or adaptation, a custom ERP when justified, internal and external bots, automation of daily tasks and system integrations. Clients include the Israel Mortgage Advisors Association (about 1,900 advisors).
 
 - [Home](https://digital.m-eitan.co.il/en): digital transformation consulting for organizations in Israel
 - [Conference and retreat management](https://digital.m-eitan.co.il/en/conferences)

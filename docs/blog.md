@@ -19,7 +19,7 @@ Source lives in `content/blog/<slug>.html` (JSON meta block + body HTML). `tools
 - 5 to 8 `<h2 id="...">` sections (the TOC is built from them), plus 2 to 4 FAQ items in meta (they become FAQPage JSON-LD).
 - Only real facts about Kobi's work (see `index.html`: the association of about 1,900 members, Eitan CRM, the conference system, his own office). Never invent clients, numbers, quotes or results.
 - Link to a relevant service page where it fits (`/conferences`, `/whatsapp`, `/eitan`, `/#method`) and to earlier articles.
-- Kobi is a "יועץ ארגוני מוסמך". Never "licensed".
+- Present Kobi as "מומחה להטמעת דיגיטציה בעסקים". Not as an organizational consultant, and never "licensed".
 
 ## Topic backlog (Hebrew keyword in parentheses)
 - [x] Weak points in business processes (ייעול תהליכים בעסק): published 2026-10-27 as business-process-weak-points

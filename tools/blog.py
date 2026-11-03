@@ -70,7 +70,7 @@ CONTACT = f'''  <section id="contact" aria-labelledby="contactH">
         <p class="eyebrow">שיחת ייעוץ ראשונית, חינם</p>
         <h2 id="contactH">רוצים שנמפה את זה יחד אצלכם?</h2>
         <p>שיחה של כ־20 דקות, בלי עלות ובלי התחייבות. נעבור על התהליכים שחוזרים על עצמם ומתישים אתכם, ונראה מה כדאי לשפר בשינוי של התהליך ומה באוטומציה.</p>
-        <div class="me"><img src="/img/kobi-face.webp" width="96" height="96" loading="lazy" decoding="async" alt="קובי איתן"><p><b>קובי איתן</b>יועץ ארגוני מוסמך. כל פנייה מגיעה אליי ישירות.</p></div>
+        <div class="me"><img src="/img/kobi-face.webp" width="96" height="96" loading="lazy" decoding="async" alt="קובי איתן"><p><b>קובי איתן</b>מומחה להטמעת דיגיטציה בעסקים. כל פנייה מגיעה אליי ישירות.</p></div>
         <p class="note">אפשר גם לכתוב לי בווצאפ ל־<a href="{WA_KOBI}" target="_blank" rel="noopener">053-2208816</a> או במייל ל־<a href="mailto:kobi@eitan-m.co.il">kobi@eitan-m.co.il</a></p>
       </div>
       <form id="lead" data-subject="{{subject}}">
@@ -101,7 +101,7 @@ FOOTER = '''  <footer>
 
 ORG = {"@type": "ProfessionalService", "@id": SITE + "/#org", "name": "איתן | דיגיטציה ארגונית", "url": SITE + "/"}
 PERSON = {"@type": "Person", "@id": SITE + "/#kobi", "name": "קובי איתן", "alternateName": "Kobi Eitan",
-          "jobTitle": "יועץ ארגוני מוסמך ומוביל דיגיטציה", "url": SITE + "/",
+          "jobTitle": "מומחה להטמעת דיגיטציה בעסקים", "url": SITE + "/",
           "sameAs": ["https://www.linkedin.com/in/kobi-eitan-03a4b3235", "https://www.xplace.com/il/u/user1790252229559"]}
 
 
@@ -215,7 +215,7 @@ def article_page(p, posts):
     <article class="post">
       <nav class="crumbs" aria-label="פירורי לחם"><a href="/">דף הבית</a><span aria-hidden="true">›</span><a href="/blog">מאמרים</a></nav>
       <h1>{esc(p['h1'])}</h1>
-      <div class="byline"><img src="/img/kobi-face.webp" width="96" height="96" alt="" decoding="async"><p><b>קובי איתן</b>יועץ ארגוני מוסמך · <time datetime="{p['date']}">{he_date(p['date'])}</time> · {p['read_min']} דקות קריאה</p></div>
+      <div class="byline"><img src="/img/kobi-face.webp" width="96" height="96" alt="" decoding="async"><p><b>קובי איתן</b>מומחה להטמעת דיגיטציה בעסקים · <time datetime="{p['date']}">{he_date(p['date'])}</time> · {p['read_min']} דקות קריאה</p></div>
       {toc(p['body'])}<div class="post-body">
 {p['body']}
       </div>
