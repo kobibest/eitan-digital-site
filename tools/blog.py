@@ -70,7 +70,7 @@ CONTACT = f'''  <section id="contact" aria-labelledby="contactH">
         <p class="eyebrow">שיחת ייעוץ ראשונית, חינם</p>
         <h2 id="contactH">רוצים שנמפה את זה יחד אצלכם?</h2>
         <p>שיחה של כ־20 דקות, בלי עלות ובלי התחייבות. נעבור על התהליכים שחוזרים על עצמם ומתישים אתכם, ונראה מה כדאי לשפר בשינוי של התהליך ומה באוטומציה.</p>
-        <div class="me"><img src="/img/kobi-face.webp" width="96" height="96" loading="lazy" decoding="async" alt="קובי איתן"><p><b>קובי איתן</b>מומחה להטמעת דיגיטציה בעסקים. כל פנייה מגיעה אליי ישירות.</p></div>
+        <div class="me"><img src="/img/kobi-face.webp" width="96" height="96" loading="lazy" decoding="async" alt="קובי איתן"><p><b>קובי איתן</b>מומחה להטמעת דיגיטציה בעסקים.</p></div>
         <p class="note">אפשר גם לכתוב לי בווצאפ ל־<a href="{WA_KOBI}" target="_blank" rel="noopener">053-2208816</a> או במייל ל־<a href="mailto:kobi@eitan-m.co.il">kobi@eitan-m.co.il</a></p>
       </div>
       <form id="lead" data-subject="{{subject}}">
