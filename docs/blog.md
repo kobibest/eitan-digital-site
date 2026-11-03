@@ -35,7 +35,7 @@ Source lives in `content/blog/<slug>.html` (JSON meta block + body HTML). `tools
 - [x] How to calculate the ROI of automation (החזר השקעה אוטומציה): published 2026-10-28
 - [x] Getting a team to actually adopt a new system (הטמעת מערכת בארגון): published 2026-10-28
 - [x] Official WhatsApp system review (ווצאפ רשמי לארגונים): published 2026-11-02 as official-whatsapp-eitan-connect-review
-- [~] Recurring payments and standing orders: avoiding failed charges (הוראות קבע / סליקה): drafted 2026-11-03, awaiting approval
+- [x] Recurring payments and standing orders: avoiding failed charges (הוראות קבע / סליקה): published 2026-11-03 as recurring-payments-failed-charges
 - [x] AI bots for customer service: a practical guide (בוט AI לשירות לקוחות): published 2026-10-28
 - [ ] Amendment 13 to the Privacy Protection Law for small businesses (תיקון 13 לחוק הגנת הפרטיות)
 - [x] Automatic reminders that cut no-shows (תזכורות אוטומטיות ללקוחות): published 2026-10-28 as automatic-customer-reminders
