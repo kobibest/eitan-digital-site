@@ -34,6 +34,7 @@ Data comes from the Make scenario "Search Console API (Claude)" (property `https
 | `eitan-crm-mortgage-advisors-review` | CRM ליועצי משכנתאות | מערכת לניהול משרד ייעוץ משכנתאות, תוכנה ליועצי משכנתאות, מערכת איתן, ניהול תיקי משכנתא | published 2026-11-01 |
 | `official-whatsapp-eitan-connect-review` | ווצאפ רשמי לארגונים | חיבור ווצאפ ל-CRM, WhatsApp Business API לארגון, הודעות ווצאפ אוטומטיות, Eitan Connect | published 2026-11-02 |
 | `recurring-payments-failed-charges` | הוראות קבע | תשלומים חוזרים, חיוב שנכשל, הוראת קבע בכרטיס אשראי, גבייה חודשית | published 2026-11-03 |
+| `privacy-amendment-13-business-systems` | תיקון 13 לחוק הגנת הפרטיות | הגנת פרטיות לעסקים, אבטחת מידע לעסק קטן, מאגר מידע עסק, מדיניות פרטיות לעסק | published 2026-11-04 |
 
 ## Search Console log
 - 2026-10-27: property verified, sitemap submitted 2026-10-24 (11 URLs, 0 indexed yet). No query data yet, the site is new.
