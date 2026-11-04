@@ -37,7 +37,7 @@ Source lives in `content/blog/<slug>.html` (JSON meta block + body HTML). `tools
 - [x] Official WhatsApp system review (ווצאפ רשמי לארגונים): published 2026-11-02 as official-whatsapp-eitan-connect-review
 - [x] Recurring payments and standing orders: avoiding failed charges (הוראות קבע / סליקה): published 2026-11-03 as recurring-payments-failed-charges
 - [x] AI bots for customer service: a practical guide (בוט AI לשירות לקוחות): published 2026-10-28
-- [ ] Amendment 13 to the Privacy Protection Law for small businesses (תיקון 13 לחוק הגנת הפרטיות)
+- [~] Amendment 13 to the Privacy Protection Law for small businesses (תיקון 13 לחוק הגנת הפרטיות): drafted 2026-11-04, awaiting approval
 - [x] Automatic reminders that cut no-shows (תזכורות אוטומטיות ללקוחות): published 2026-10-28 as automatic-customer-reminders
 - [ ] Custom ERP vs off-the-shelf: when each makes sense (ERP מותאם אישית)
 - [ ] Mapping a customer journey from lead to payment (מסע לקוח)
