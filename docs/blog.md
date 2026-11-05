@@ -39,5 +39,5 @@ Source lives in `content/blog/<slug>.html` (JSON meta block + body HTML). `tools
 - [x] AI bots for customer service: a practical guide (בוט AI לשירות לקוחות): published 2026-10-28
 - [x] Amendment 13 to the Privacy Protection Law for small businesses (תיקון 13 לחוק הגנת הפרטיות): published 2026-11-04 as privacy-amendment-13-business-systems
 - [x] Automatic reminders that cut no-shows (תזכורות אוטומטיות ללקוחות): published 2026-10-28 as automatic-customer-reminders
-- [ ] Custom ERP vs off-the-shelf: when each makes sense (ERP מותאם אישית)
+- [~] Custom ERP vs off-the-shelf: when each makes sense (ERP מותאם אישית): drafted 2026-11-05, awaiting approval
 - [ ] Mapping a customer journey from lead to payment (מסע לקוח)
