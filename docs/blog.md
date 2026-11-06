@@ -40,4 +40,4 @@ Source lives in `content/blog/<slug>.html` (JSON meta block + body HTML). `tools
 - [x] Amendment 13 to the Privacy Protection Law for small businesses (תיקון 13 לחוק הגנת הפרטיות): published 2026-11-04 as privacy-amendment-13-business-systems
 - [x] Automatic reminders that cut no-shows (תזכורות אוטומטיות ללקוחות): published 2026-10-28 as automatic-customer-reminders
 - [x] Custom ERP vs off-the-shelf: when each makes sense (ERP מותאם אישית): published 2026-11-05 as custom-erp-vs-off-the-shelf
-- [ ] Mapping a customer journey from lead to payment (מסע לקוח)
+- [~] Mapping a customer journey from lead to payment (מסע לקוח): drafted 2026-11-06, awaiting approval
