@@ -125,7 +125,7 @@
   });
 
   setTimeout(function(){
-    if(!modal.classList.contains('open'))openPromo();
-    else showBanner();
+    showBanner();
+    openPromo();
   },DELAY_MS);
 })();
