@@ -60,3 +60,79 @@
       });
   });
 })();
+
+// Academy promo: a lightbox a few seconds after arrival, then a floating banner.
+// Copy and link live here, so they change in one place.
+(function(){
+  var EN=document.documentElement.lang==='en';
+  var P={
+    he:{eyebrow:'האקדמיה',title:'האקדמיה לדיגיטציה בעסקים',text:'הכשרות מעשיות לבעלי עסקים ולמנהלים שרוצים לייעל תהליכים ולהטמיע מערכות נכון, בלי לבזבז חודשים על ניסוי וטעייה.',cta:'לפרטים על האקדמיה',later:'לא עכשיו',banner:'האקדמיה לדיגיטציה בעסקים: פרטים',close:'סגירה',msg:'שלום קובי, אשמח לפרטים על האקדמיה'},
+    en:{eyebrow:'The academy',title:'The digitization academy',text:'Practical training for business owners and managers who want to streamline processes and roll out systems the right way.',cta:'Get details on the academy',later:'Not now',banner:'The academy: details',close:'Close',msg:"Hi Kobi, I'd like details about the academy"}
+  };
+  var T=EN?P.en:P.he;
+  var LINK='https://wa.me/972532208816?text='+encodeURIComponent(T.msg);
+  var QUIET_MS=7*864e5, DELAY_MS=4000;
+  var PROMO_KEY='eitanAcademyPromoDismissed', BANNER_KEY='eitanAcademyBannerDismissed', SHOWN_KEY='eitanAcademyShown';
+  function getStore(k){try{return localStorage.getItem(k);}catch(e){return null;}}
+  function setStore(k,v){try{localStorage.setItem(k,v);}catch(e){}}
+  function quiet(k){var t=Number(getStore(k));return !!t&&Date.now()-t<QUIET_MS;}
+  function shownThisSession(){try{return sessionStorage.getItem(SHOWN_KEY)==='1';}catch(e){return false;}}
+  function track(name,placement){if(typeof gtag==='function')gtag('event',name,{placement:placement,page_path:location.pathname});}
+  function el(tag,cls,text){var n=document.createElement(tag);if(cls)n.className=cls;if(text!=null)n.textContent=text;return n;}
+
+  // Lightbox
+  var modal=el('div','academy-modal');
+  var dlg=el('div','academy-dialog');
+  dlg.setAttribute('role','dialog');dlg.setAttribute('aria-modal','true');dlg.setAttribute('aria-labelledby','academyTitle');dlg.tabIndex=-1;
+  var x=el('button','academy-x','×');x.type='button';x.setAttribute('aria-label',T.close);
+  var h=el('h2',null,T.title);h.id='academyTitle';
+  var actions=el('div','academy-actions');
+  var cta=el('a','btn wa',T.cta);cta.href=LINK;cta.target='_blank';cta.rel='noopener';
+  var later=el('button','academy-later',T.later);later.type='button';
+  actions.appendChild(cta);actions.appendChild(later);
+  dlg.appendChild(x);dlg.appendChild(el('p','academy-eyebrow',T.eyebrow));dlg.appendChild(h);dlg.appendChild(el('p',null,T.text));dlg.appendChild(actions);
+  modal.appendChild(dlg);document.body.appendChild(modal);
+
+  // Floating banner, shown once the lightbox is closed (or straight away if it is not shown)
+  var banner=el('div','academy-banner');
+  var bLink=el('a','academy-banner-link',T.banner);bLink.href=LINK;bLink.target='_blank';bLink.rel='noopener';
+  var bX=el('button','academy-banner-x','×');bX.type='button';bX.setAttribute('aria-label',T.close);
+  banner.appendChild(bLink);banner.appendChild(bX);document.body.appendChild(banner);
+
+  var lastFocus=null;
+  function showBanner(){if(!quiet(BANNER_KEY))banner.classList.add('show');}
+  function openPromo(){
+    lastFocus=document.activeElement;
+    modal.classList.add('open');
+    try{sessionStorage.setItem(SHOWN_KEY,'1');}catch(e){}
+    track('academy_promo_view','popup');
+    dlg.focus();
+  }
+  function closePromo(){
+    if(!modal.classList.contains('open'))return;
+    modal.classList.remove('open');
+    setStore(PROMO_KEY,String(Date.now()));
+    if(lastFocus&&lastFocus.focus)lastFocus.focus();
+    showBanner();
+  }
+  x.addEventListener('click',closePromo);
+  later.addEventListener('click',closePromo);
+  modal.addEventListener('click',function(e){if(e.target===modal)closePromo();});
+  cta.addEventListener('click',function(){track('academy_click','popup');closePromo();});
+  bLink.addEventListener('click',function(){track('academy_click','banner');});
+  bX.addEventListener('click',function(){banner.classList.remove('show');setStore(BANNER_KEY,String(Date.now()));});
+  document.addEventListener('keydown',function(e){
+    if(!modal.classList.contains('open'))return;
+    if(e.key==='Escape'){closePromo();return;}
+    if(e.key==='Tab'){
+      var f=dlg.querySelectorAll('a[href],button'),first=f[0],last=f[f.length-1];
+      if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}
+      else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}
+    }
+  });
+
+  setTimeout(function(){
+    if(!quiet(PROMO_KEY)&&!shownThisSession())openPromo();
+    else showBanner();
+  },DELAY_MS);
+})();
