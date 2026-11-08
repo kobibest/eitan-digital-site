@@ -41,7 +41,7 @@ Source lives in `content/blog/<slug>.html` (JSON meta block + body HTML). `tools
 - [x] Automatic reminders that cut no-shows (תזכורות אוטומטיות ללקוחות): published 2026-10-28 as automatic-customer-reminders
 - [x] Custom ERP vs off-the-shelf: when each makes sense (ERP מותאם אישית): published 2026-11-05 as custom-erp-vs-off-the-shelf
 - [x] Mapping a customer journey from lead to payment (מסע לקוח): published 2026-11-06 as customer-journey-lead-to-payment
-- [~] Member management system for organizations and nonprofits (מערכת לניהול חברים): drafted 2026-11-08, awaiting approval
+- [x] Member management system for organizations and nonprofits (מערכת לניהול חברים): published 2026-11-08 as member-management-system-organization
 - [ ] Digital signature for business documents (חתימה דיגיטלית לעסק): built into the association system
 - [ ] Landing pages that feed leads straight into the CRM (דף נחיתה לידים ל-CRM): Eitan CRM has one per advisor
 - [ ] Moving an organization's email to Google Workspace (מעבר ל-Google Workspace לעסק)

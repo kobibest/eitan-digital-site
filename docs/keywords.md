@@ -37,6 +37,7 @@ Data comes from the Make scenario "Search Console API (Claude)" (property `https
 | `privacy-amendment-13-business-systems` | תיקון 13 לחוק הגנת הפרטיות | הגנת פרטיות לעסקים, אבטחת מידע לעסק קטן, מאגר מידע עסק, מדיניות פרטיות לעסק | published 2026-11-04 |
 | `custom-erp-vs-off-the-shelf` | ERP מותאם אישית | מערכת ERP לעסק, ERP או מערכת מדף, מערכת ניהול לארגון, פיתוח מערכת ניהול | published 2026-11-05 |
 | `customer-journey-lead-to-payment` | מסע לקוח | מיפוי מסע לקוח, תהליך מכירה בעסק, ניהול לידים, משפך מכירות | published 2026-11-06 |
+| `member-management-system-organization` | מערכת לניהול חברים | ניהול חברים בעמותה, CRM לעמותות, ניהול דמי חבר, מערכת לניהול ארגון | published 2026-11-08 |
 
 ## Search Console log
 - 2026-10-27: property verified, sitemap submitted 2026-10-24 (11 URLs, 0 indexed yet). No query data yet, the site is new.
@@ -48,4 +49,4 @@ Data comes from the Make scenario "Search Console API (Claude)" (property `https
   - Pages: blog/small-business-automation 24 impr (pos 72.7), blog/whatsapp-business-api-vs-app 16 (pos 23.6, was 28), blog/small-business-digitization 14 (pos 16.2, new), blog/connecting-business-systems 12 (pos 12.7, was 14.3), /conferences 10 (29.7), blog/automatic-customer-reminders 9 (25.3), blog/automation-roi 9 (37.3), /eitan 8 (4.3), blog/ai-customer-service-bot 7 (67.6), blog/system-adoption 6 (25.3), /en/conferences 6 (10.2), /en/eitan 5 (6.4), blog/recurring-payments-failed-charges 1 (pos 8).
   - Movers after the 2026-11-01 changes: clearing-to-accounting query 6 impr pos 6.2 (was 2 impr pos 5); "שילוב מערכות תשלום באתר" pos 15.5 (was 33); "וואטסאפ עסקי יתרונות וחסרונות" pos 12.3 (was 14); "הטמעת מערכת מידע חדשה בארגון" pos 16 (was 19).
   - New in 5-20: "דיגיטציה עסקית" 14 impr pos 16.2 (small-business-digitization); "אוטומציה למתחילים" pos 18 (small-business-automation). Near: "וואטסאפ ביזנס api" pos 21.3, "תוכנה לניהול וואטסאפ עסקי" pos 24.
-  - Proposed to Kobi: "דיגיטציה עסקית" phrasing in small-business-digitization; a beginners FAQ in small-business-automation; an FAQ on software to run WhatsApp Business as a team in whatsapp-business-api-vs-app.
+  - Approved and applied 2026-11-08: "דיגיטציה עסקית" phrasing in small-business-digitization; a beginners FAQ in small-business-automation; an FAQ on software to run WhatsApp Business as a team in whatsapp-business-api-vs-app.
