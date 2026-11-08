@@ -72,11 +72,10 @@
   var T=EN?P.en:P.he;
   var LINK='https://wa.me/972532208816?text='+encodeURIComponent(T.msg);
   var QUIET_MS=7*864e5, DELAY_MS=4000;
-  var PROMO_KEY='eitanAcademyPromoDismissed', BANNER_KEY='eitanAcademyBannerDismissed', SHOWN_KEY='eitanAcademyShown';
+  var BANNER_KEY='eitanAcademyBannerDismissed';
   function getStore(k){try{return localStorage.getItem(k);}catch(e){return null;}}
   function setStore(k,v){try{localStorage.setItem(k,v);}catch(e){}}
   function quiet(k){var t=Number(getStore(k));return !!t&&Date.now()-t<QUIET_MS;}
-  function shownThisSession(){try{return sessionStorage.getItem(SHOWN_KEY)==='1';}catch(e){return false;}}
   function track(name,placement){if(typeof gtag==='function')gtag('event',name,{placement:placement,page_path:location.pathname});}
   function el(tag,cls,text){var n=document.createElement(tag);if(cls)n.className=cls;if(text!=null)n.textContent=text;return n;}
 
@@ -104,14 +103,12 @@
   function openPromo(){
     lastFocus=document.activeElement;
     modal.classList.add('open');
-    try{sessionStorage.setItem(SHOWN_KEY,'1');}catch(e){}
     track('academy_promo_view','popup');
     dlg.focus();
   }
   function closePromo(){
     if(!modal.classList.contains('open'))return;
     modal.classList.remove('open');
-    setStore(PROMO_KEY,String(Date.now()));
     if(lastFocus&&lastFocus.focus)lastFocus.focus();
     showBanner();
   }
@@ -132,7 +129,7 @@
   });
 
   setTimeout(function(){
-    if(!quiet(PROMO_KEY)&&!shownThisSession())openPromo();
+    if(!modal.classList.contains('open'))openPromo();
     else showBanner();
   },DELAY_MS);
 })();
