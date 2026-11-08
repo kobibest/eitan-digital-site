@@ -71,11 +71,7 @@
   };
   var T=EN?P.en:P.he;
   var LINK='https://wa.me/972532208816?text='+encodeURIComponent(T.msg);
-  var QUIET_MS=7*864e5, DELAY_MS=4000;
-  var BANNER_KEY='eitanAcademyBannerDismissed';
-  function getStore(k){try{return localStorage.getItem(k);}catch(e){return null;}}
-  function setStore(k,v){try{localStorage.setItem(k,v);}catch(e){}}
-  function quiet(k){var t=Number(getStore(k));return !!t&&Date.now()-t<QUIET_MS;}
+  var DELAY_MS=4000;
   function track(name,placement){if(typeof gtag==='function')gtag('event',name,{placement:placement,page_path:location.pathname});}
   function el(tag,cls,text){var n=document.createElement(tag);if(cls)n.className=cls;if(text!=null)n.textContent=text;return n;}
 
@@ -99,7 +95,7 @@
   banner.appendChild(bLink);banner.appendChild(bX);document.body.appendChild(banner);
 
   var lastFocus=null;
-  function showBanner(){if(!quiet(BANNER_KEY))banner.classList.add('show');}
+  function showBanner(){banner.classList.add('show');}
   function openPromo(){
     lastFocus=document.activeElement;
     modal.classList.add('open');
@@ -117,7 +113,7 @@
   modal.addEventListener('click',function(e){if(e.target===modal)closePromo();});
   cta.addEventListener('click',function(){track('academy_click','popup');closePromo();});
   bLink.addEventListener('click',function(){track('academy_click','banner');});
-  bX.addEventListener('click',function(){banner.classList.remove('show');setStore(BANNER_KEY,String(Date.now()));});
+  bX.addEventListener('click',function(){banner.classList.remove('show');});
   document.addEventListener('keydown',function(e){
     if(!modal.classList.contains('open'))return;
     if(e.key==='Escape'){closePromo();return;}
