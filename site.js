@@ -62,35 +62,50 @@
 })();
 
 // Academy promo: a lightbox a few seconds after arrival, then a floating banner.
-// Copy and link live here, so they change in one place.
+// Copy and link live here, so they change in one place. Everything points to academy.m-eitan.co.il.
 (function(){
   var EN=document.documentElement.lang==='en';
   var P={
-    he:{eyebrow:'האקדמיה',title:'האקדמיה לדיגיטציה בעסקים',text:'הכשרות מעשיות לבעלי עסקים ולמנהלים שרוצים לייעל תהליכים ולהטמיע מערכות נכון, בלי לבזבז חודשים על ניסוי וטעייה.',cta:'לפרטים על האקדמיה',later:'לא עכשיו',banner:'האקדמיה לדיגיטציה בעסקים: פרטים',close:'סגירה',msg:'שלום קובי, אשמח לפרטים על האקדמיה'},
-    en:{eyebrow:'The academy',title:'The digitization academy',text:'Practical training for business owners and managers who want to streamline processes and roll out systems the right way.',cta:'Get details on the academy',later:'Not now',banner:'The academy: details',close:'Close',msg:"Hi Kobi, I'd like details about the academy"}
+    he:{title:'קורסים מעשיים לבעלי עסקים, בעברית',text:'קורסי זום, סדנאות וקורסים דיגיטליים שמתחילים מהמשימות של העסק שלכם: לקוחות, מכירות, מסמכים, שיווק ואוטומציה. מעשי, עם ליווי אמיתי.',tags:['זום לייב','סדנאות','קורסים דיגיטליים'],cta:'לכניסה לאקדמיה',later:'לא עכשיו',brand:['אקדמיית ','איתן'],brandSub:'לבעלי עסקים',banner:'אקדמיית איתן',bannerSub:'קורסים לבעלי עסקים',bannerGo:'לפרטים ←',by:'מאת קובי איתן, מומחה להטמעת דיגיטציה בעסקים',close:'סגירה'},
+    en:{title:'Practical courses for business owners',text:'Live Zoom courses, workshops and digital courses that start from the day-to-day tasks of your business: customers, sales, documents, marketing and automation.',tags:['Live Zoom','Workshops','Digital courses'],cta:'Go to the academy',later:'Not now',brand:['Eitan ','Academy'],brandSub:'For business owners',banner:'Eitan Academy',bannerSub:'Courses for business owners',bannerGo:'Details →',by:'By Kobi Eitan, business digitization implementation expert',close:'Close'}
   };
   var T=EN?P.en:P.he;
-  var LINK='https://wa.me/972532208816?text='+encodeURIComponent(T.msg);
+  var LINK='https://academy.m-eitan.co.il/?utm_source=digital&utm_medium=promo&utm_campaign=';
+  var LOGO='<svg viewBox="0 0 120 120" aria-hidden="true" focusable="false"><rect width="120" height="120" rx="26" fill="#171A2F"/><rect x="44" y="16" width="32" height="32" rx="7" fill="#12B886"/><path d="M60 48v12M27 72V62h66v10M60 60v12" stroke="#F4F6F9" stroke-width="4" fill="none" stroke-linecap="round" opacity=".35"/><rect x="14" y="72" width="26" height="26" rx="6" fill="#F4F6F9"/><rect x="47" y="72" width="26" height="26" rx="6" fill="#F4F6F9"/><rect x="80" y="72" width="26" height="26" rx="6" fill="#F4F6F9"/></svg>';
   var DELAY_MS=4000;
   function track(name,placement){if(typeof gtag==='function')gtag('event',name,{placement:placement,page_path:location.pathname});}
   function el(tag,cls,text){var n=document.createElement(tag);if(cls)n.className=cls;if(text!=null)n.textContent=text;return n;}
+  function mark(cls){var s=el('span',cls);s.innerHTML=LOGO;return s;}
 
   // Lightbox
   var modal=el('div','academy-modal');
   var dlg=el('div','academy-dialog');
   dlg.setAttribute('role','dialog');dlg.setAttribute('aria-modal','true');dlg.setAttribute('aria-labelledby','academyTitle');dlg.tabIndex=-1;
   var x=el('button','academy-x','×');x.type='button';x.setAttribute('aria-label',T.close);
+
+  var brand=el('div','academy-brand');
+  var wm=el('div','academy-wordmark');
+  var wmName=el('b');wmName.appendChild(document.createTextNode(T.brand[0]));wmName.appendChild(el('span',null,T.brand[1]));
+  wm.appendChild(wmName);wm.appendChild(el('small',null,T.brandSub));
+  brand.appendChild(mark('academy-mark'));brand.appendChild(wm);
+
   var h=el('h2',null,T.title);h.id='academyTitle';
+  var tags=el('ul','academy-tags');T.tags.forEach(function(t){tags.appendChild(el('li',null,t));});
   var actions=el('div','academy-actions');
-  var cta=el('a','btn wa',T.cta);cta.href=LINK;cta.target='_blank';cta.rel='noopener';
+  var cta=el('a','academy-cta',T.cta);cta.href=LINK+'academy_popup';cta.target='_blank';cta.rel='noopener';
   var later=el('button','academy-later',T.later);later.type='button';
   actions.appendChild(cta);actions.appendChild(later);
-  dlg.appendChild(x);dlg.appendChild(el('p','academy-eyebrow',T.eyebrow));dlg.appendChild(h);dlg.appendChild(el('p',null,T.text));dlg.appendChild(actions);
+  var by=el('div','academy-by');
+  var img=el('img');img.src='/img/kobi-face.webp';img.alt='קובי איתן';img.width=44;img.height=44;img.loading='lazy';img.decoding='async';
+  by.appendChild(img);by.appendChild(el('p',null,T.by));
+  dlg.appendChild(x);dlg.appendChild(brand);dlg.appendChild(h);dlg.appendChild(el('p',null,T.text));dlg.appendChild(tags);dlg.appendChild(actions);dlg.appendChild(by);
   modal.appendChild(dlg);document.body.appendChild(modal);
 
   // Floating banner, shown once the lightbox is closed (or straight away if it is not shown)
   var banner=el('div','academy-banner');
-  var bLink=el('a','academy-banner-link',T.banner);bLink.href=LINK;bLink.target='_blank';bLink.rel='noopener';
+  var bLink=el('a','academy-banner-link');bLink.href=LINK+'academy_banner';bLink.target='_blank';bLink.rel='noopener';
+  var bText=el('span','academy-banner-text');bText.appendChild(el('b',null,T.banner));bText.appendChild(el('small',null,T.bannerSub));
+  bLink.appendChild(mark('academy-mark sm'));bLink.appendChild(bText);bLink.appendChild(el('span','academy-banner-go',T.bannerGo));
   var bX=el('button','academy-banner-x','×');bX.type='button';bX.setAttribute('aria-label',T.close);
   banner.appendChild(bLink);banner.appendChild(bX);document.body.appendChild(banner);
 
