@@ -38,6 +38,7 @@ Data comes from the Make scenario "Search Console API (Claude)" (property `https
 | `custom-erp-vs-off-the-shelf` | ERP מותאם אישית | מערכת ERP לעסק, ERP או מערכת מדף, מערכת ניהול לארגון, פיתוח מערכת ניהול | published 2026-11-05 |
 | `customer-journey-lead-to-payment` | מסע לקוח | מיפוי מסע לקוח, תהליך מכירה בעסק, ניהול לידים, משפך מכירות | published 2026-11-06 |
 | `member-management-system-organization` | מערכת לניהול חברים | ניהול חברים בעמותה, CRM לעמותות, ניהול דמי חבר, מערכת לניהול ארגון | published 2026-11-08 |
+| `digital-signature-for-business` | חתימה דיגיטלית לעסק | חתימה דיגיטלית על מסמכים, חתימה אלקטרונית, טפסים דיגיטליים, מסמכים לחתימה ללקוחות | published 2026-11-09 |
 
 ## Search Console log
 - 2026-10-27: property verified, sitemap submitted 2026-10-24 (11 URLs, 0 indexed yet). No query data yet, the site is new.
