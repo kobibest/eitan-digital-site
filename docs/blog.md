@@ -42,7 +42,7 @@ Source lives in `content/blog/<slug>.html` (JSON meta block + body HTML). `tools
 - [x] Custom ERP vs off-the-shelf: when each makes sense (ERP מותאם אישית): published 2026-11-05 as custom-erp-vs-off-the-shelf
 - [x] Mapping a customer journey from lead to payment (מסע לקוח): published 2026-11-06 as customer-journey-lead-to-payment
 - [x] Member management system for organizations and nonprofits (מערכת לניהול חברים): published 2026-11-08 as member-management-system-organization
-- [ ] Digital signature for business documents (חתימה דיגיטלית לעסק): built into the association system
+- [~] Digital signature for business documents (חתימה דיגיטלית לעסק): built into the association system; drafted 2026-11-09, awaiting approval
 - [ ] Landing pages that feed leads straight into the CRM (דף נחיתה לידים ל-CRM): Eitan CRM has one per advisor
 - [ ] Moving an organization's email to Google Workspace (מעבר ל-Google Workspace לעסק)
 - [ ] Getting SMS messages into the business system (קליטת SMS למערכת / GreenFlow)
