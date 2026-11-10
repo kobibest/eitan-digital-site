@@ -43,7 +43,7 @@ Source lives in `content/blog/<slug>.html` (JSON meta block + body HTML). `tools
 - [x] Mapping a customer journey from lead to payment (מסע לקוח): published 2026-11-06 as customer-journey-lead-to-payment
 - [x] Member management system for organizations and nonprofits (מערכת לניהול חברים): published 2026-11-08 as member-management-system-organization
 - [x] Digital signature for business documents (חתימה דיגיטלית לעסק): published 2026-11-09 as digital-signature-for-business
-- [ ] Landing pages that feed leads straight into the CRM (דף נחיתה לידים ל-CRM): Eitan CRM has one per advisor
+- [~] Landing pages that feed leads straight into the CRM (דף נחיתה לידים ל-CRM): Eitan CRM has one per advisor; drafted 2026-11-10, awaiting approval
 - [ ] Moving an organization's email to Google Workspace (מעבר ל-Google Workspace לעסק)
 - [ ] Getting SMS messages into the business system (קליטת SMS למערכת / GreenFlow)
 - [ ] Mailing to members or customers from inside the system (מערכת דיוור לעסק / לארגון)
