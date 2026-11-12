@@ -45,5 +45,5 @@ Source lives in `content/blog/<slug>.html` (JSON meta block + body HTML). `tools
 - [x] Digital signature for business documents (חתימה דיגיטלית לעסק): published 2026-11-09 as digital-signature-for-business
 - [x] Landing pages that feed leads straight into the CRM (דף נחיתה לידים ל-CRM): published 2026-11-10 as landing-page-leads-to-crm
 - [x] Moving an organization's email to Google Workspace (מעבר ל-Google Workspace לעסק): published 2026-11-11 as google-workspace-email-migration
-- [ ] Getting SMS messages into the business system (קליטת SMS למערכת / GreenFlow)
+- [~] Getting SMS messages into the business system (קליטת SMS למערכת / GreenFlow): drafted 2026-11-12, awaiting approval
 - [ ] Mailing to members or customers from inside the system (מערכת דיוור לעסק / לארגון)
