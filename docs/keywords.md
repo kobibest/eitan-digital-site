@@ -41,6 +41,7 @@ Data comes from the Make scenario "Search Console API (Claude)" (property `https
 | `digital-signature-for-business` | חתימה דיגיטלית לעסק | חתימה דיגיטלית על מסמכים, חתימה אלקטרונית, טפסים דיגיטליים, מסמכים לחתימה ללקוחות | published 2026-11-09 |
 | `landing-page-leads-to-crm` | דף נחיתה לידים | חיבור טופס ל-CRM, ניהול לידים, מקור ליד, טופס לידים באתר | published 2026-11-10 |
 | `google-workspace-email-migration` | מעבר ל-Google Workspace | מייל ארגוני, העברת מיילים לדומיין, גוגל וורקספייס לעסק, תיבת מייל משותפת | published 2026-11-11 |
+| `sms-into-business-system` | קליטת SMS למערכת | SMS ל-CRM, העברת SMS אוטומטית, הודעות SMS ללקוחות, ניהול SMS בעסק | published 2026-11-12 |
 
 ## Search Console log
 - 2026-10-27: property verified, sitemap submitted 2026-10-24 (11 URLs, 0 indexed yet). No query data yet, the site is new.
