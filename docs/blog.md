@@ -46,4 +46,4 @@ Source lives in `content/blog/<slug>.html` (JSON meta block + body HTML). `tools
 - [x] Landing pages that feed leads straight into the CRM (דף נחיתה לידים ל-CRM): published 2026-11-10 as landing-page-leads-to-crm
 - [x] Moving an organization's email to Google Workspace (מעבר ל-Google Workspace לעסק): published 2026-11-11 as google-workspace-email-migration
 - [x] Getting SMS messages into the business system (קליטת SMS למערכת / GreenFlow): published 2026-11-12 as sms-into-business-system
-- [ ] Mailing to members or customers from inside the system (מערכת דיוור לעסק / לארגון)
+- [~] Mailing to members or customers from inside the system (מערכת דיוור לעסק / לארגון): drafted 2026-11-13, awaiting approval
