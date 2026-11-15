@@ -43,6 +43,7 @@ Data comes from the Make scenario "Search Console API (Claude)" (property `https
 | `google-workspace-email-migration` | מעבר ל-Google Workspace | מייל ארגוני, העברת מיילים לדומיין, גוגל וורקספייס לעסק, תיבת מייל משותפת | published 2026-11-11 |
 | `sms-into-business-system` | קליטת SMS למערכת | SMS ל-CRM, העברת SMS אוטומטית, הודעות SMS ללקוחות, ניהול SMS בעסק | published 2026-11-12 |
 | `mailing-from-inside-the-system` | מערכת דיוור לעסק | דיוור ללקוחות, דיוור לחברי ארגון, דיוור מתוך CRM, ניוזלטר לעסק | published 2026-11-13 |
+| `building-an-erp-system` | בניית מערכת ERP | פיתוח מערכת ERP, יצירת מערכת ERP, אפיון מערכת ERP, הטמעת ERP | published 2026-11-15 |
 
 ## Search Console log
 - 2026-10-27: property verified, sitemap submitted 2026-10-24 (11 URLs, 0 indexed yet). No query data yet, the site is new.
@@ -61,4 +62,4 @@ Data comes from the Make scenario "Search Console API (Claude)" (property `https
   - custom-erp-vs-off-the-shelf (new): 23 impr; "בניית מערכת erp" 10 impr pos 30.5; "מה חשוב לבדוק כשמחליפים אינטגרטור או שותף יישום למערכת erp קיימת?" pos 9.
   - system-adoption: "הטמעת מערכת מידע חדשה בארגון" pos 15.4 (was 16). recurring-payments-failed-charges pos 17. /eitan pos 5.6.
   - automation-roi: "החזר השקעה מחסן אוטומטי" 8 impr pos 35.8: warehouse intent, not ours, ignore.
-  - Proposed to Kobi: rewrite title/description of small-business-digitization around "דיגיטציה עסקית"; whatsapp-business-api-vs-app title with "וואטסאפ ביזנס" spelling and "יתרונות וחסרונות"; an FAQ on replacing an ERP integrator in custom-erp-vs-off-the-shelf.
+  - Approved and applied 2026-11-15: rewrite title/description of small-business-digitization around "דיגיטציה עסקית"; whatsapp-business-api-vs-app title with "וואטסאפ ביזנס" spelling and "יתרונות וחסרונות"; an FAQ on replacing an ERP integrator in custom-erp-vs-off-the-shelf.
