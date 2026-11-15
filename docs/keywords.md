@@ -55,3 +55,10 @@ Data comes from the Make scenario "Search Console API (Claude)" (property `https
   - Movers after the 2026-11-01 changes: clearing-to-accounting query 6 impr pos 6.2 (was 2 impr pos 5); "שילוב מערכות תשלום באתר" pos 15.5 (was 33); "וואטסאפ עסקי יתרונות וחסרונות" pos 12.3 (was 14); "הטמעת מערכת מידע חדשה בארגון" pos 16 (was 19).
   - New in 5-20: "דיגיטציה עסקית" 14 impr pos 16.2 (small-business-digitization); "אוטומציה למתחילים" pos 18 (small-business-automation). Near: "וואטסאפ ביזנס api" pos 21.3, "תוכנה לניהול וואטסאפ עסקי" pos 24.
   - Approved and applied 2026-11-08: "דיגיטציה עסקית" phrasing in small-business-digitization; a beginners FAQ in small-business-automation; an FAQ on software to run WhatsApp Business as a team in whatsapp-business-api-vs-app.
+- 2026-11-15 (28 days to 2026-11-14): still 0 clicks; 37 URLs submitted.
+  - small-business-digitization: "דיגיטציה עסקית" 44 impr pos 14.1 (was 14 impr pos 16.2 before the 2026-11-08 heading/FAQ change). Many impressions, 0 clicks.
+  - whatsapp-business-api-vs-app: 29 impr pos 21.7; "וואטסאפ עסקי יתרונות וחסרונות" 11 impr pos 15.8; "תוכנה לניהול וואטסאפ עסקי" pos 16.3 (was 24 before the team FAQ); "וואטסאפ ביזנס" 10 impr pos 29. Searchers write וואטסאפ, the site writes ווצאפ.
+  - custom-erp-vs-off-the-shelf (new): 23 impr; "בניית מערכת erp" 10 impr pos 30.5; "מה חשוב לבדוק כשמחליפים אינטגרטור או שותף יישום למערכת erp קיימת?" pos 9.
+  - system-adoption: "הטמעת מערכת מידע חדשה בארגון" pos 15.4 (was 16). recurring-payments-failed-charges pos 17. /eitan pos 5.6.
+  - automation-roi: "החזר השקעה מחסן אוטומטי" 8 impr pos 35.8: warehouse intent, not ours, ignore.
+  - Proposed to Kobi: rewrite title/description of small-business-digitization around "דיגיטציה עסקית"; whatsapp-business-api-vs-app title with "וואטסאפ ביזנס" spelling and "יתרונות וחסרונות"; an FAQ on replacing an ERP integrator in custom-erp-vs-off-the-shelf.
