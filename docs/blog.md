@@ -49,4 +49,4 @@ Source lives in `content/blog/<slug>.html` (JSON meta block + body HTML). `tools
 - [x] Mailing to members or customers from inside the system (מערכת דיוור לעסק / לארגון): published 2026-11-13 as mailing-from-inside-the-system
 - [x] Building an ERP system step by step (בניית מערכת ERP): from GSC query "בניית מערכת erp" (10 impr pos 30.5); published 2026-11-15 as building-an-erp-system
 - [ ] Choosing or replacing an ERP/system integrator (החלפת אינטגרטור ERP): GSC query at pos 9
-- [ ] WhatsApp Business: features of the free app explained (וואטסאפ ביזנס): "וואטסאפ ביזנס" 10 impr pos 29; note searchers spell it וואטסאפ
+- [~] WhatsApp Business: features of the free app explained (וואטסאפ ביזנס): "וואטסאפ ביזנס" 10 impr pos 29; note searchers spell it וואטסאפ; drafted 2026-11-16, awaiting approval
