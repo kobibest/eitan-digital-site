@@ -45,6 +45,7 @@ Data comes from the Make scenario "Search Console API (Claude)" (property `https
 | `mailing-from-inside-the-system` | מערכת דיוור לעסק | דיוור ללקוחות, דיוור לחברי ארגון, דיוור מתוך CRM, ניוזלטר לעסק | published 2026-11-13 |
 | `building-an-erp-system` | בניית מערכת ERP | פיתוח מערכת ERP, יצירת מערכת ERP, אפיון מערכת ERP, הטמעת ERP | published 2026-11-15 |
 | `whatsapp-business-app-guide` | וואטסאפ ביזנס | ווצאפ ביזנס, WhatsApp Business, וואטסאפ עסקי, הגדרת וואטסאפ ביזנס | published 2026-11-16 |
+| `replacing-erp-integrator` | החלפת אינטגרטור ERP | החלפת ספק מערכת, החלפת ספק תוכנה, העברת מערכת לספק אחר, שותף יישום ERP | published 2026-11-17 |
 
 ## Search Console log
 - 2026-10-27: property verified, sitemap submitted 2026-10-24 (11 URLs, 0 indexed yet). No query data yet, the site is new.
