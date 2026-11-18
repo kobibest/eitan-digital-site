@@ -5,6 +5,13 @@ Data comes from the Make scenario "Search Console API (Claude)" (property `https
 `POST /v3/sites/https%3A%2F%2Fdigital.m-eitan.co.il%2F/searchAnalytics/query` with
 `{"startDate":"...","endDate":"...","dimensions":["query","page"],"rowLimit":250}`.
 
+## Daily status report (every morning run, since 2026-11-18)
+Kobi wants a full daily review of the site in Google Search. Each run:
+1. Pull the last 28 days by page and by query+page, plus the last 7 days by page, and the sitemap status (submitted vs indexed).
+2. Compare with the previous log entry: clicks, impressions, average position per page, queries that moved, new queries.
+3. Report to Kobi in Hebrew: totals, top pages, top queries, notable movers, indexing status, and what was done about it. Note that Search Console data lags by 2 to 3 days.
+4. Log a short dated entry below.
+
 ## Weekly review (every Sunday morning run)
 1. Pull the last 28 days by query+page. Log the top queries below (date, query, page, clicks, impressions, CTR, position).
 2. Act on it:
@@ -12,7 +19,7 @@ Data comes from the Make scenario "Search Console API (Claude)" (property `https
    - Many impressions, low CTR: rewrite `title` and `description` around the query.
    - Queries with impressions and no matching article: add to the backlog in `docs/blog.md`, top priority.
    - A query landing on the wrong page: add a clear internal link to the right page.
-3. Changes to published articles also go to Kobi for approval before they reach `main`.
+3. Since 2026-11-18, changes to published articles are self-checked like new articles and published without waiting for approval; they are listed in the daily report.
 4. After publishing anything, resubmit the sitemap: `PUT /v3/sites/https%3A%2F%2Fdigital.m-eitan.co.il%2F/sitemaps/https%3A%2F%2Fdigital.m-eitan.co.il%2Fsitemap.xml`.
 
 ## Targets
@@ -46,6 +53,7 @@ Data comes from the Make scenario "Search Console API (Claude)" (property `https
 | `building-an-erp-system` | בניית מערכת ERP | פיתוח מערכת ERP, יצירת מערכת ERP, אפיון מערכת ERP, הטמעת ERP | published 2026-11-15 |
 | `whatsapp-business-app-guide` | וואטסאפ ביזנס | ווצאפ ביזנס, WhatsApp Business, וואטסאפ עסקי, הגדרת וואטסאפ ביזנס | published 2026-11-16 |
 | `replacing-erp-integrator` | החלפת אינטגרטור ERP | החלפת ספק מערכת, החלפת ספק תוכנה, העברת מערכת לספק אחר, שותף יישום ERP | published 2026-11-17 |
+| `collecting-documents-from-clients` | איסוף מסמכים מלקוחות | קבלת מסמכים מלקוחות, רשימת מסמכים חסרים, קליטת מסמכים אוטומטית, העלאת מסמכים ללקוחות | published 2026-11-18 |
 
 ## Search Console log
 - 2026-10-27: property verified, sitemap submitted 2026-10-24 (11 URLs, 0 indexed yet). No query data yet, the site is new.

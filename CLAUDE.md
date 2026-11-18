@@ -8,7 +8,7 @@ Every push to `main` deploys to production.
 - English pages: `en/*.html` (LTR, each has `hreflang` pairs with its Hebrew twin; keep both in sync)
 - Legal (bilingual, needed for Meta Tech Provider / Eitan Connect): `privacy.html`, `terms.html`, `data-deletion.html` — keep the footer `legal-line` on all pages
 - `styles.css` base, `extra.css` additions, `site.js` (contact form via Web3Forms + injects the "English" switcher on Hebrew pages)
-- Blog (Hebrew): `content/blog/*.html` → `python3 tools/blog.py` → `blog/`. Workflow, writing rules and topic backlog: `docs/blog.md`. Articles are published only after Kobi approves the draft.
+- Blog (Hebrew): `content/blog/*.html` → `python3 tools/blog.py` → `blog/`. Workflow, writing rules and topic backlog: `docs/blog.md`. Since 2026-11-18 articles are self-checked and published without waiting for Kobi's approval (see `docs/blog.md`); Kobi gets a daily Google Search status report.
 - SEO: `sitemap.xml` (with xhtml:link alternates), `robots.txt`, `llms.txt`, JSON-LD in each page head
 - CSS/JS are cached for a day: when you change `styles.css`, `extra.css` or `site.js`, bump the `?v=` query on every page and in `tools/blog.py`.
 - `vercel.json`: cleanUrls, headers, build command

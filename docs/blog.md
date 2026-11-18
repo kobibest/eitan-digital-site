@@ -4,13 +4,19 @@ Source lives in `content/blog/<slug>.html` (JSON meta block + body HTML). `tools
 `blog/<slug>.html`, `blog/index.html`, and the blog blocks in `sitemap.xml` and `llms.txt`.
 `content/`, `tools/` and `docs/` are excluded from the deploy (`.vercelignore`). Always commit the generated files.
 
-## Daily workflow (approval first, then publish)
+## Daily workflow (self-check, then publish)
+Since 2026-11-18 Kobi does not approve each article. He asked that every fact be checked carefully and that the run approve its own work, then publish.
 1. Pick the next topic from the backlog below (or a better one found by keyword research). Skip anything already published (`ls content/blog`).
 2. Research the Hebrew search intent: WebSearch for the keyword, look at what ranks, find what is missing there. Optionally use the hofit&goni `seo_meta` / `seo_schema` / `seo_audit` tools.
 3. Write `content/blog/<slug>.html`. Latin kebab-case slug. Set `date` and `updated` to the publish day.
-4. Run `python3 tools/blog.py`, render the page with Playwright and check mobile + desktop.
-5. Send Kobi the draft in chat for approval: title, meta description, target keyword, and the full text. Do NOT publish yet.
-6. Only after an explicit approval: apply requested edits, rebuild, commit, push to `main` (production). Unapproved drafts are never pushed to `main`.
+4. Self-check before publishing, every time:
+   - Every claim about Kobi's work exists on the site (index.html, conferences.html, whatsapp.html, eitan.html) or was said by Kobi in chat. Nothing inferred or embellished.
+   - Every external fact (law, platform rule, date) was verified in at least one reliable source this run; anything disputed between sources is left out. Legal topics say they are not legal advice.
+   - Every number is either from a source, Kobi, or clearly marked as an illustration ("נניח"), and calculations are re-done.
+   - No em dashes or " – ", no banned phrases, Kobi is "מומחה להטמעת דיגיטציה בעסקים", internal links point to existing slugs.
+   - `python3 tools/blog.py` succeeds and the page renders on mobile and desktop.
+5. Publish: rebuild, commit, push to `main` (production), resubmit the sitemap.
+6. Report to Kobi in chat: the daily Google Search status (see `docs/keywords.md`) and the published article (link, keyword, what it covers, anything worth his attention).
 
 ## Writing rules
 - Practical and genuinely useful: concrete steps, checklists, examples, a small table or calculation where it helps. 1,000 to 1,800 words.
@@ -50,4 +56,4 @@ Source lives in `content/blog/<slug>.html` (JSON meta block + body HTML). `tools
 - [x] Building an ERP system step by step (בניית מערכת ERP): from GSC query "בניית מערכת erp" (10 impr pos 30.5); published 2026-11-15 as building-an-erp-system
 - [x] Choosing or replacing an ERP/system integrator (החלפת אינטגרטור ERP): GSC query at pos 9; published 2026-11-17 as replacing-erp-integrator
 - [x] WhatsApp Business: features of the free app explained (וואטסאפ ביזנס): "וואטסאפ ביזנס" 10 impr pos 29; note searchers spell it וואטסאפ; published 2026-11-16 as whatsapp-business-app-guide
-- [~] Collecting documents from clients without chasing (איסוף מסמכים מלקוחות): demo bot, Eitan CRM document reading; drafted 2026-11-18, awaiting approval
+- [x] Collecting documents from clients without chasing (איסוף מסמכים מלקוחות): demo bot, Eitan CRM document reading; published 2026-11-18 as collecting-documents-from-clients
