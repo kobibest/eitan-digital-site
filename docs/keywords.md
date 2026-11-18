@@ -73,3 +73,7 @@ Kobi wants a full daily review of the site in Google Search. Each run:
   - system-adoption: "הטמעת מערכת מידע חדשה בארגון" pos 15.4 (was 16). recurring-payments-failed-charges pos 17. /eitan pos 5.6.
   - automation-roi: "החזר השקעה מחסן אוטומטי" 8 impr pos 35.8: warehouse intent, not ours, ignore.
   - Approved and applied 2026-11-15: rewrite title/description of small-business-digitization around "דיגיטציה עסקית"; whatsapp-business-api-vs-app title with "וואטסאפ ביזנס" spelling and "יתרונות וחסרונות"; an FAQ on replacing an ERP integrator in custom-erp-vs-off-the-shelf.
+- 2026-11-18 daily (28 days to 2026-11-17): 233 impr, 0 clicks, avg pos 30.5. Sitemap resubmitted: 41 submitted, 0 reported indexed (impressions show pages are served). 7 days by date: 8 to 17 impr/day, data up to 2026-11-15.
+  - Pages: small-business-digitization 47 (pos 14.6), whatsapp-business-api-vs-app 38 (21.3), custom-erp-vs-off-the-shelf 31 (43.6), small-business-automation 24 (72.7), automation-roi 17 (38.4), connecting-business-systems 12 (12.7), /eitan 12 (5.6), /conferences 11 (29.3), automatic-customer-reminders 10 (24.9), system-adoption 10 (20.3).
+  - Queries: "דיגיטציה עסקית" 47 pos 14.6; "וואטסאפ עסקי יתרונות וחסרונות" 14 pos 16.4; "בניית מערכת erp" 14 pos 34.4; "וואטסאפ ביזנס" 13 pos 26.2; clearing-to-accounting 6 pos 6.2; "הטמעת מערכת מידע חדשה בארגון" 5 pos 15.4.
+  - No changes today: the 2026-11-15 title changes need another week of data. Published collecting-documents-from-clients.
