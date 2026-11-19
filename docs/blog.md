@@ -57,3 +57,4 @@ Since 2026-11-18 Kobi does not approve each article. He asked that every fact be
 - [x] Choosing or replacing an ERP/system integrator (החלפת אינטגרטור ERP): GSC query at pos 9; published 2026-11-17 as replacing-erp-integrator
 - [x] WhatsApp Business: features of the free app explained (וואטסאפ ביזנס): "וואטסאפ ביזנס" 10 impr pos 29; note searchers spell it וואטסאפ; published 2026-11-16 as whatsapp-business-app-guide
 - [x] Collecting documents from clients without chasing (איסוף מסמכים מלקוחות): demo bot, Eitan CRM document reading; published 2026-11-18 as collecting-documents-from-clients
+- [x] Case study: digitizing Kobi's own mortgage office (דיגיטציה בעסק קטן מקרה בוחן): supports "דיגיטציה עסקית" (pos 15); claims only from the "עסק קטן" card on index.html; published 2026-11-19 as small-business-digitization-case-study

@@ -54,6 +54,7 @@ Kobi wants a full daily review of the site in Google Search. Each run:
 | `whatsapp-business-app-guide` | וואטסאפ ביזנס | ווצאפ ביזנס, WhatsApp Business, וואטסאפ עסקי, הגדרת וואטסאפ ביזנס | published 2026-11-16 |
 | `replacing-erp-integrator` | החלפת אינטגרטור ERP | החלפת ספק מערכת, החלפת ספק תוכנה, העברת מערכת לספק אחר, שותף יישום ERP | published 2026-11-17 |
 | `collecting-documents-from-clients` | איסוף מסמכים מלקוחות | קבלת מסמכים מלקוחות, רשימת מסמכים חסרים, קליטת מסמכים אוטומטית, העלאת מסמכים ללקוחות | published 2026-11-18 |
+| `small-business-digitization-case-study` | דיגיטציה בעסק קטן מקרה בוחן | דיגיטציה עסקית דוגמה, אוטומציה למשרד ייעוץ משכנתאות, משרד דיגיטלי | published 2026-11-19 |
 
 ## Search Console log
 - 2026-10-27: property verified, sitemap submitted 2026-10-24 (11 URLs, 0 indexed yet). No query data yet, the site is new.
@@ -77,3 +78,8 @@ Kobi wants a full daily review of the site in Google Search. Each run:
   - Pages: small-business-digitization 47 (pos 14.6), whatsapp-business-api-vs-app 38 (21.3), custom-erp-vs-off-the-shelf 31 (43.6), small-business-automation 24 (72.7), automation-roi 17 (38.4), connecting-business-systems 12 (12.7), /eitan 12 (5.6), /conferences 11 (29.3), automatic-customer-reminders 10 (24.9), system-adoption 10 (20.3).
   - Queries: "דיגיטציה עסקית" 47 pos 14.6; "וואטסאפ עסקי יתרונות וחסרונות" 14 pos 16.4; "בניית מערכת erp" 14 pos 34.4; "וואטסאפ ביזנס" 13 pos 26.2; clearing-to-accounting 6 pos 6.2; "הטמעת מערכת מידע חדשה בארגון" 5 pos 15.4.
   - No changes today: the 2026-11-15 title changes need another week of data. Published collecting-documents-from-clients.
+- 2026-11-19 daily (28 days to 2026-11-18, data through 2026-11-17): 252 impr (was 233), 0 clicks, avg pos 30.8. Sitemap: 41 submitted, 0 reported indexed.
+  - whatsapp-business-api-vs-app 44 impr pos 19.8 (was 38, 21.3); last 7 days pos 17, first sign of the 2026-11-15 title change. "וואטסאפ ביזנס" 16 impr pos 23.7 (was 26.2); "וואטסאפ עסקי יתרונות וחסרונות" pos 15.7.
+  - small-business-digitization 50 impr pos 15.2 (7 days: pos 19.9, slipping); "דיגיטציה עסקית" 50 impr. Published a case study that links to it to support the cluster.
+  - custom-erp-vs-off-the-shelf 33 (pos 44.1); "בניית מערכת erp" 15 impr pos 35.5. whatsapp-bot-for-business picks up "בוט לעסקים" / "בוט ווטסאפ לעסק" at pos 77-84 (watch for Sunday).
+  - Published small-business-digitization-case-study.
