@@ -83,3 +83,4 @@ Kobi wants a full daily review of the site in Google Search. Each run:
   - small-business-digitization 50 impr pos 15.2 (7 days: pos 19.9, slipping); "דיגיטציה עסקית" 50 impr. Published a case study that links to it to support the cluster.
   - custom-erp-vs-off-the-shelf 33 (pos 44.1); "בניית מערכת erp" 15 impr pos 35.5. whatsapp-bot-for-business picks up "בוט לעסקים" / "בוט ווטסאפ לעסק" at pos 77-84 (watch for Sunday).
   - Published small-business-digitization-case-study.
+  - 2026-11-19: home page "עסק קטן" card (he + en) now states case handling time dropped from 6 weeks to 2 (from Kobi). Track whether the home page and the case study gain impressions.
