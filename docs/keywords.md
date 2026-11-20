@@ -55,6 +55,7 @@ Kobi wants a full daily review of the site in Google Search. Each run:
 | `replacing-erp-integrator` | החלפת אינטגרטור ERP | החלפת ספק מערכת, החלפת ספק תוכנה, העברת מערכת לספק אחר, שותף יישום ERP | published 2026-11-17 |
 | `collecting-documents-from-clients` | איסוף מסמכים מלקוחות | קבלת מסמכים מלקוחות, רשימת מסמכים חסרים, קליטת מסמכים אוטומטית, העלאת מסמכים ללקוחות | published 2026-11-18 |
 | `small-business-digitization-case-study` | דיגיטציה בעסק קטן מקרה בוחן | דיגיטציה עסקית דוגמה, אוטומציה למשרד ייעוץ משכנתאות, משרד דיגיטלי | published 2026-11-19 |
+| `data-migration-to-new-system` | העברת נתונים למערכת חדשה | הסבת נתונים, ניקוי נתונים, מעבר CRM, ייבוא נתונים למערכת | published 2026-11-20 |
 
 ## Search Console log
 - 2026-10-27: property verified, sitemap submitted 2026-10-24 (11 URLs, 0 indexed yet). No query data yet, the site is new.
@@ -84,3 +85,5 @@ Kobi wants a full daily review of the site in Google Search. Each run:
   - custom-erp-vs-off-the-shelf 33 (pos 44.1); "בניית מערכת erp" 15 impr pos 35.5. whatsapp-bot-for-business picks up "בוט לעסקים" / "בוט ווטסאפ לעסק" at pos 77-84 (watch for Sunday).
   - Published small-business-digitization-case-study.
   - 2026-11-19: home page "עסק קטן" card (he + en) now states case handling time dropped from 6 weeks to 2 (from Kobi). Track whether the home page and the case study gain impressions.
+- 2026-11-20 daily: no new GSC data since yesterday (latest day still 2026-11-17): 252 impr, 0 clicks, avg pos 30.8. Sitemap: 41 submitted, 0 reported indexed (last read 2026-11-19 05:47, before the case study URL was counted). 7 days by page: whatsapp-business-api-vs-app 17 impr pos 17.2; small-business-digitization 8 impr pos 22.6; custom-erp-vs-off-the-shelf 12 impr pos 50.4.
+  - Published data-migration-to-new-system (supports "החלפת מערכת מידע", ERP/CRM switch queries).
