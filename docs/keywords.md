@@ -56,6 +56,7 @@ Kobi wants a full daily review of the site in Google Search. Each run:
 | `collecting-documents-from-clients` | איסוף מסמכים מלקוחות | קבלת מסמכים מלקוחות, רשימת מסמכים חסרים, קליטת מסמכים אוטומטית, העלאת מסמכים ללקוחות | published 2026-11-18 |
 | `small-business-digitization-case-study` | דיגיטציה בעסק קטן מקרה בוחן | דיגיטציה עסקית דוגמה, אוטומציה למשרד ייעוץ משכנתאות, משרד דיגיטלי | published 2026-11-19 |
 | `data-migration-to-new-system` | העברת נתונים למערכת חדשה | הסבת נתונים, ניקוי נתונים, מעבר CRM, ייבוא נתונים למערכת | published 2026-11-20 |
+| `erp-for-small-business` | ERP לעסק קטן | מערכת ERP לעסקים קטנים, האם צריך ERP, מערכת ניהול לעסק קטן, חלופה ל-ERP | published 2026-11-22 |
 
 ## Search Console log
 - 2026-10-27: property verified, sitemap submitted 2026-10-24 (11 URLs, 0 indexed yet). No query data yet, the site is new.
@@ -87,3 +88,8 @@ Kobi wants a full daily review of the site in Google Search. Each run:
   - 2026-11-19: home page "עסק קטן" card (he + en) now states case handling time dropped from 6 weeks to 2 (from Kobi). Track whether the home page and the case study gain impressions.
 - 2026-11-20 daily: no new GSC data since yesterday (latest day still 2026-11-17): 252 impr, 0 clicks, avg pos 30.8. Sitemap: 41 submitted, 0 reported indexed (last read 2026-11-19 05:47, before the case study URL was counted). 7 days by page: whatsapp-business-api-vs-app 17 impr pos 17.2; small-business-digitization 8 impr pos 22.6; custom-erp-vs-off-the-shelf 12 impr pos 50.4.
   - Published data-migration-to-new-system (supports "החלפת מערכת מידע", ERP/CRM switch queries).
+- 2026-11-22 daily + weekly (28 days to 2026-11-21, data through 2026-11-19): 279 impr (was 252), 0 clicks, avg pos 31.1. Sitemap: 43 submitted, 0 reported indexed (read 2026-11-22).
+  - Top queries: "דיגיטציה עסקית" 56 impr pos 15.7 (7d pos 21.8); "וואטסאפ ביזנס" 17 pos 23.4 (lands on api-vs-app, not the app guide); "בניית מערכת erp" 15 pos 35.5 on custom-erp and 4 pos 49 on building-an-erp-system; "וואטסאפ עסקי יתרונות וחסרונות" 15 pos 15.7; "בוט ווטסאפ לעסק" 5 pos 79.8; clearing-to-accounting 6 pos 6.2.
+  - Pages: small-business-digitization 56 (15.7), whatsapp-business-api-vs-app 48 (20.0; 7d 17.4), custom-erp 33 (44.1), small-business-automation 25 (70), automation-roi 20 (40.5), /eitan 15 (5.3), /conferences 12 (31). New: eitan-crm review pos 9 and official-whatsapp review pos 9 in the last 7 days.
+  - Weekly changes applied 2026-11-22 (self-checked): small-business-digitization links to the case study with the 6-to-2-weeks result; custom-erp-vs-off-the-shelf links to building-an-erp-system in the intro (query landing on the wrong page); whatsapp-business-api-vs-app links to whatsapp-business-app-guide in the intro; whatsapp-bot-for-business title uses the "וואטסאפ" spelling and keywords add "בוט ווטסאפ לעסק", "בוט לעסקים".
+  - Published erp-for-small-business.
