@@ -57,6 +57,7 @@ Kobi wants a full daily review of the site in Google Search. Each run:
 | `small-business-digitization-case-study` | דיגיטציה בעסק קטן מקרה בוחן | דיגיטציה עסקית דוגמה, אוטומציה למשרד ייעוץ משכנתאות, משרד דיגיטלי | published 2026-11-19 |
 | `data-migration-to-new-system` | העברת נתונים למערכת חדשה | הסבת נתונים, ניקוי נתונים, מעבר CRM, ייבוא נתונים למערכת | published 2026-11-20 |
 | `erp-for-small-business` | ERP לעסק קטן | מערכת ERP לעסקים קטנים, האם צריך ERP, מערכת ניהול לעסק קטן, חלופה ל-ERP | published 2026-11-22 |
+| `eitan-pdf-review` | עריכת PDF בעברית | תוכנה חינמית ל-PDF, עורך PDF עברית, חתימה על PDF, מיזוג קבצי PDF, איתןPDF | published 2026-11-23 |
 
 ## Search Console log
 - 2026-10-27: property verified, sitemap submitted 2026-10-24 (11 URLs, 0 indexed yet). No query data yet, the site is new.
@@ -93,3 +94,7 @@ Kobi wants a full daily review of the site in Google Search. Each run:
   - Pages: small-business-digitization 56 (15.7), whatsapp-business-api-vs-app 48 (20.0; 7d 17.4), custom-erp 33 (44.1), small-business-automation 25 (70), automation-roi 20 (40.5), /eitan 15 (5.3), /conferences 12 (31). New: eitan-crm review pos 9 and official-whatsapp review pos 9 in the last 7 days.
   - Weekly changes applied 2026-11-22 (self-checked): small-business-digitization links to the case study with the 6-to-2-weeks result; custom-erp-vs-off-the-shelf links to building-an-erp-system in the intro (query landing on the wrong page); whatsapp-business-api-vs-app links to whatsapp-business-app-guide in the intro; whatsapp-bot-for-business title uses the "וואטסאפ" spelling and keywords add "בוט ווטסאפ לעסק", "בוט לעסקים".
   - Published erp-for-small-business.
+- 2026-11-23 daily (28 days to 2026-11-22, data through 2026-11-21): 300 impr (was 279), 0 clicks, avg pos 31.2. Sitemap: 43 submitted (local sitemap has 44; erp-for-small-business not yet counted), 0 reported indexed.
+  - whatsapp-business-api-vs-app 7d pos 15.9 (was 17.4); "וואטסאפ עסקי יתרונות וחסרונות" 18 impr pos 14.2. small-business-digitization 7d pos 18.8 (was 21.8); "דיגיטציה עסקית" 59 impr pos 15.5. building-an-erp-system now gets "בניית מערכת erp" impressions (8, pos 56.9) next to custom-erp.
+  - New queries: "איסוף מסמכים" pos 17 (collecting-documents), "חיובים חוזרים" pos 18, "מייל עסקי גוגל" pos 28, "שרת דואר ארגוני" pos 34 (google-workspace-email-migration).
+  - Published eitan-pdf-review.
