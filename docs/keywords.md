@@ -58,6 +58,7 @@ Kobi wants a full daily review of the site in Google Search. Each run:
 | `data-migration-to-new-system` | העברת נתונים למערכת חדשה | הסבת נתונים, ניקוי נתונים, מעבר CRM, ייבוא נתונים למערכת | published 2026-11-20 |
 | `erp-for-small-business` | ERP לעסק קטן | מערכת ERP לעסקים קטנים, האם צריך ERP, מערכת ניהול לעסק קטן, חלופה ל-ERP | published 2026-11-22 |
 | `eitan-pdf-review` | עריכת PDF בעברית | תוכנה חינמית ל-PDF, עורך PDF עברית, חתימה על PDF, מיזוג קבצי PDF, איתןPDF | published 2026-11-23 |
+| `wa-reader-review` | לחבר וואטסאפ ל-Claude | וואטסאפ ו-AI, WA Reader, Claude וואטסאפ, סיכום שיחות וואטסאפ | published 2026-11-24 |
 
 ## Search Console log
 - 2026-10-27: property verified, sitemap submitted 2026-10-24 (11 URLs, 0 indexed yet). No query data yet, the site is new.
@@ -98,3 +99,4 @@ Kobi wants a full daily review of the site in Google Search. Each run:
   - whatsapp-business-api-vs-app 7d pos 15.9 (was 17.4); "וואטסאפ עסקי יתרונות וחסרונות" 18 impr pos 14.2. small-business-digitization 7d pos 18.8 (was 21.8); "דיגיטציה עסקית" 59 impr pos 15.5. building-an-erp-system now gets "בניית מערכת erp" impressions (8, pos 56.9) next to custom-erp.
   - New queries: "איסוף מסמכים" pos 17 (collecting-documents), "חיובים חוזרים" pos 18, "מייל עסקי גוגל" pos 28, "שרת דואר ארגוני" pos 34 (google-workspace-email-migration).
   - Published eitan-pdf-review.
+- 2026-11-24 daily: no new GSC data (latest day still 2026-11-21): 299 impr, 0 clicks, avg pos 31.3. Sitemap: 44 submitted (eitan-pdf-review not yet counted), 0 reported indexed. 7 days: whatsapp-business-api-vs-app 14 impr pos 17.5; small-business-digitization 10 impr pos 17.9; building-an-erp-system 12 impr pos 54.8. Published wa-reader-review.
