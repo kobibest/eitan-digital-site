@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H1X9EHS4XM"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-H1X9EHS4XM');</script>
+<!-- Microsoft Clarity -->
+<script>(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","z4hj73vzhz");</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;600;700&family=IBM+Plex+Sans+Hebrew:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css?v=20261028">
+<link rel="stylesheet" href="/extra.css?v=2026110805">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="author" content="קובי איתן">
+<meta name="theme-color" content="#171A2F">
+<meta property="og:site_name" content="איתן | דיגיטציה ארגונית">
+<meta property="og:locale" content="he_IL">
+<meta property="og:image" content="https://digital.m-eitan.co.il/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://digital.m-eitan.co.il/og.png">
+<title>פתיחת מייל עסקי עם דומיין: מדריך צעד אחר צעד לעסק קטן | איתן</title>
+<meta name="description" content="איך פותחים מייל עסקי עם דומיין משלכם: בחירת ספק, אימות הדומיין, רשומות MX, הגדרת SPF, DKIM ו-DMARC כדי שהמיילים לא ייפלו לספאם, ואילו כתובות לפתוח.">
+<link rel="canonical" href="https://digital.m-eitan.co.il/blog/business-email-setup">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://digital.m-eitan.co.il/blog/business-email-setup">
+<meta property="og:title" content="פתיחת מייל עסקי עם דומיין משלכם: מה בוחרים, איך מגדירים, ומה לא לשכוח">
+<meta property="og:description" content="איך פותחים מייל עסקי עם דומיין משלכם: בחירת ספק, אימות הדומיין, רשומות MX, הגדרת SPF, DKIM ו-DMARC כדי שהמיילים לא ייפלו לספאם, ואילו כתובות לפתוח.">
+<meta property="og:image:alt" content="פתיחת מייל עסקי עם דומיין משלכם: מה בוחרים, איך מגדירים, ומה לא לשכוח">
+<meta property="article:published_time" content="2026-11-25">
+<meta property="article:modified_time" content="2026-11-25">
+<meta name="twitter:title" content="פתיחת מייל עסקי עם דומיין משלכם: מה בוחרים, איך מגדירים, ומה לא לשכוח">
+<meta name="twitter:description" content="איך פותחים מייל עסקי עם דומיין משלכם: בחירת ספק, אימות הדומיין, רשומות MX, הגדרת SPF, DKIM ו-DMARC כדי שהמיילים לא ייפלו לספאם, ואילו כתובות לפתוח.">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[{"@type":"ProfessionalService","@id":"https://digital.m-eitan.co.il/#org","name":"איתן | דיגיטציה ארגונית","url":"https://digital.m-eitan.co.il/"},{"@type":"Person","@id":"https://digital.m-eitan.co.il/#kobi","name":"קובי איתן","alternateName":"Kobi Eitan","jobTitle":"מומחה להטמעת דיגיטציה בעסקים","url":"https://digital.m-eitan.co.il/","sameAs":["https://www.linkedin.com/in/kobi-eitan-03a4b3235","https://www.xplace.com/il/u/user1790252229559"]},{"@type":"BlogPosting","@id":"https://digital.m-eitan.co.il/blog/business-email-setup#article","headline":"פתיחת מייל עסקי עם דומיין משלכם: מה בוחרים, איך מגדירים, ומה לא לשכוח","description":"איך פותחים מייל עסקי עם דומיין משלכם: בחירת ספק, אימות הדומיין, רשומות MX, הגדרת SPF, DKIM ו-DMARC כדי שהמיילים לא ייפלו לספאם, ואילו כתובות לפתוח.","inLanguage":"he","datePublished":"2026-11-25","dateModified":"2026-11-25","author":{"@id":"https://digital.m-eitan.co.il/#kobi"},"publisher":{"@id":"https://digital.m-eitan.co.il/#org"},"mainEntityOfPage":"https://digital.m-eitan.co.il/blog/business-email-setup","image":"https://digital.m-eitan.co.il/og.png","keywords":"פתיחת מייל עסקי, מייל עסקי עם דומיין, מייל עסקי גוגל, כתובת מייל לעסק, SPF DKIM DMARC"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"דף הבית","item":"https://digital.m-eitan.co.il/"},{"@type":"ListItem","position":2,"name":"מאמרים","item":"https://digital.m-eitan.co.il/blog"},{"@type":"ListItem","position":3,"name":"פתיחת מייל עסקי עם דומיין משלכם: מה בוחרים, איך מגדירים, ומה לא לשכוח","item":"https://digital.m-eitan.co.il/blog/business-email-setup"}]},{"@type":"FAQPage","@id":"https://digital.m-eitan.co.il/blog/business-email-setup#faq","mainEntity":[{"@type":"Question","name":"צריך דומיין כדי לפתוח מייל עסקי?","acceptedAnswer":{"@type":"Answer","text":"כן. מייל עסקי הוא כתובת בדומיין של העסק, כמו name@yourbusiness.co.il. אם עוד אין לכם דומיין, רוכשים אותו אצל רשם דומיינים, ורק אחר כך מחברים אותו לספק המייל."}},{"@type":"Question","name":"מה זה SPF, DKIM ו-DMARC, וחייבים אותם?","acceptedAnswer":{"@type":"Answer","text":"אלה רשומות בהגדרות הדומיין שמוכיחות לשרתי מייל אחרים שהמייל באמת נשלח מהעסק שלכם. לפי ההנחיות של Google לשולחים, כל שולח צריך לפחות SPF או DKIM כדי לשלוח לתיבות Gmail, ושולחים בהיקף גדול צריכים את שלושתם. Google ממליצה להגדיר את שלושתם בכל דומיין, וזה גם מה שאני ממליץ."}},{"@type":"Question","name":"אפשר להשאיר את Gmail הפרטי ורק להוסיף כתובת עסקית?","acceptedAnswer":{"@type":"Answer","text":"אפשר להפנות כתובת עסקית לתיבה פרטית, אבל זה פתרון חלקי: קשה לשלוח בצורה מסודרת מהכתובת העסקית, והמיילים של העסק נשארים בחשבון פרטי. כשיש יותר מאדם אחד בעסק, או כשהמייל הוא ערוץ מרכזי מול לקוחות, עדיף תיבה עסקית אמיתית."}}]}]}
+</script>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <a class="brand" href="/" aria-label="איתן, דיגיטציה ארגונית, לדף הבית">
+      <svg viewBox="0 0 120 120" aria-hidden="true"><rect x="46" y="10" width="28" height="28" rx="6" fill="#12B886"/><rect x="57" y="38" width="6" height="14" fill="#171A2F"/><rect x="24" y="50" width="72" height="6" rx="3" fill="#171A2F"/><rect x="24" y="52" width="6" height="16" fill="#171A2F"/><rect x="57" y="52" width="6" height="16" fill="#171A2F"/><rect x="90" y="52" width="6" height="16" fill="#171A2F"/><rect x="13" y="68" width="28" height="28" rx="6" fill="#171A2F"/><rect x="46" y="68" width="28" height="28" rx="6" fill="#171A2F"/><rect x="79" y="68" width="28" height="28" rx="6" fill="#171A2F"/></svg>
+      <span><b>איתן</b><small>דיגיטציה ארגונית</small></span>
+    </a>
+    <nav class="top" aria-label="ניווט ראשי">
+      <a href="/">דף הבית</a>
+      <a href="/blog">מאמרים</a>
+      <a href="/#reviews">המלצות</a>
+      <a class="cta" href="#contact">לשיחת ייעוץ חינם</a>
+    </nav>
+  </header>
+
+  <main>
+    <article class="post">
+      <nav class="crumbs" aria-label="פירורי לחם"><a href="/">דף הבית</a><span aria-hidden="true">›</span><a href="/blog">מאמרים</a></nav>
+      <h1>פתיחת מייל עסקי עם דומיין משלכם: מה בוחרים, איך מגדירים, ומה לא לשכוח</h1>
+      <div class="byline"><img src="/img/kobi-face.webp" width="96" height="96" alt="" decoding="async"><p><b>קובי איתן</b>מומחה להטמעת דיגיטציה בעסקים · <time datetime="2026-11-25">25 בנובמבר 2026</time> · 6 דקות קריאה</p></div>
+      <nav class="toc" aria-label="תוכן המאמר"><p>במאמר הזה</p><ol><li><a href="#why">למה מייל עסקי ולא Gmail פרטי</a></li><li><a href="#domain">שלב 1: דומיין</a></li><li><a href="#provider">שלב 2: ספק מייל</a></li><li><a href="#connect">שלב 3: חיבור הדומיין לספק</a></li><li><a href="#auth">שלב 4: SPF, DKIM ו-DMARC, כדי שהמיילים לא ייפלו לספאם</a></li><li><a href="#addresses">אילו כתובות לפתוח</a></li><li><a href="#mistakes">טעויות נפוצות</a></li></ol></nav>
+<div class="post-body">
+<p class="post-lead">הרבה עסקים קטנים מתחילים עם כתובת Gmail פרטית, וזה עובד. עד שזה לא: לקוח שלא מזהה את השולח, מייל חשוב שנופל לספאם, עובד שעוזב והתכתבויות עם לקוחות שנשארות אצלו. פתיחת מייל עסקי עם דומיין משלכם פותרת את זה, והיא פשוטה יותר ממה שנראה.</p>
+<p>המדריך הזה עובר על כל השלבים: מה צריך לפני, איך בוחרים ספק, איך מחברים את הדומיין, ואיך מוודאים שהמיילים מגיעים.</p>
+
+<h2 id="why">למה מייל עסקי ולא Gmail פרטי</h2>
+<ul>
+  <li><b>אמינות.</b> כתובת בדומיין של העסק נראית מקצועית יותר, ולקוחות מזהים אותה.</li>
+  <li><b>המיילים שייכים לעסק.</b> כשעובד עוזב, התיבה שלו נשארת בעסק, ואפשר להעביר אותה למישהו אחר.</li>
+  <li><b>הגעה לתיבה.</b> כשהדומיין מוגדר נכון, למיילים של העסק יש סיכוי טוב יותר להגיע לתיבה הראשית ולא לספאם.</li>
+  <li><b>כתובות לפי תפקיד.</b> כתובת לפניות, לחשבונות או לתמיכה, שכמה אנשים יכולים לטפל בה.</li>
+</ul>
+
+<h2 id="domain">שלב 1: דומיין</h2>
+<p>אם כבר יש לכם אתר, כנראה שיש לכם גם דומיין, ואפשר להשתמש בו למייל. אם אין, רוכשים דומיין אצל רשם דומיינים. כמה כללים לבחירה:</p>
+<ul>
+  <li>קצר, פשוט להקלדה, ובלי מקפים אם אפשר.</li>
+  <li>רשום על שם העסק, עם גישה של העסק לחשבון אצל הרשם.</li>
+  <li>מוגדר לחידוש אוטומטי. דומיין שפג תוקפו מפיל גם את האתר וגם את המייל.</li>
+</ul>
+
+<h2 id="provider">שלב 2: ספק מייל</h2>
+<p>שתי האפשרויות הנפוצות לעסקים הן Google Workspace ו-Microsoft 365. שתיהן נותנות תיבות מייל בדומיין שלכם, יומן, אחסון קבצים וכלי עבודה משותפים. שיקולים לבחירה:</p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>שאלה</th><th>למה זה חשוב</th></tr></thead>
+  <tbody>
+    <tr><td>באילו כלים הצוות כבר עובד?</td><td>צוות שעובד ב-Gmail ובמסמכי Google יסתגל מהר ל-Google Workspace. צוות שעובד ב-Outlook וב-Word, כנראה ל-Microsoft 365.</td></tr>
+    <tr><td>מה המערכות של העסק צריכות?</td><td>CRM, מערכת דיוור או מערכת הנהלת חשבונות צריכות לעבוד טוב עם הספק שבחרתם.</td></tr>
+    <tr><td>כמה תיבות צריך?</td><td>התמחור הוא לפי משתמש. כתובות לפי תפקיד אפשר לעיתים לנהל כקבוצה או ככינוי, בלי תיבה נפרדת.</td></tr>
+  </tbody>
+</table>
+</div>
+<p>את המחירים העדכניים כדאי לבדוק ישירות באתר של כל ספק, כי הם משתנים.</p>
+
+<h2 id="connect">שלב 3: חיבור הדומיין לספק</h2>
+<ol class="steps">
+  <li><b>אימות בעלות על הדומיין.</b> הספק נותן רשומה שמוסיפים בהגדרות ה-DNS של הדומיין, כדי להוכיח שהדומיין שלכם.</li>
+  <li><b>רשומות MX.</b> אלה הרשומות שאומרות לעולם לאן לשלוח מיילים שמיועדים לדומיין שלכם. מחליפים אותן לרשומות שהספק נותן.</li>
+  <li><b>פתיחת משתמשים.</b> תיבה לכל אדם, וכתובות לפי תפקיד לפי הצורך.</li>
+  <li><b>בדיקה.</b> שולחים מייל מבחוץ לכתובת החדשה, ומהכתובת החדשה החוצה, ובודקים ששניהם מגיעים.</li>
+</ol>
+<p class="callout">אם כבר יש לכם מייל בדומיין אצל ספק אחר, החלפת רשומות ה-MX היא הרגע שבו המייל עובר לספק החדש. במקרה כזה צריך לתכנן את המעבר ואת העברת ההתכתבויות הישנות. על זה כתבתי מדריך נפרד: <a href="/blog/google-workspace-email-migration">מעבר ל-Google Workspace לעסק או לארגון</a>.</p>
+
+<h2 id="auth">שלב 4: SPF, DKIM ו-DMARC, כדי שהמיילים לא ייפלו לספאם</h2>
+<p>זה השלב שהכי הרבה עסקים מדלגים עליו, ואז מתפלאים שהמיילים שלהם לא מגיעים. שלוש רשומות בהגדרות הדומיין:</p>
+<ul>
+  <li><b>SPF:</b> רשימה של השרתים שמותר להם לשלוח מייל בשם הדומיין שלכם.</li>
+  <li><b>DKIM:</b> חתימה דיגיטלית על כל מייל שיוצא, שמוכיחה שהוא לא שונה בדרך.</li>
+  <li><b>DMARC:</b> הוראה לשרתים אחרים מה לעשות עם מייל שמתחזה לדומיין שלכם, ולאן לשלוח דוחות.</li>
+</ul>
+<p>לפי ההנחיות של Google לשולחי מייל, כל שולח לתיבות Gmail צריך להגדיר לפחות SPF או DKIM, ושולחים בהיקף גדול צריכים את שלושתם. Google ממליצה להגדיר את שלושתם בכל דומיין. ההמלצה שלי פשוטה: הגדירו את שלושתם מההתחלה.</p>
+<p>חשוב לזכור: אם העסק שולח מיילים גם ממערכות אחרות, כמו CRM, מערכת דיוור או מערכת חשבוניות, גם הן צריכות להיכלל בהגדרות האלה. אחרת המיילים שלהן ייראו חשודים. על שליחת מיילים מתוך המערכת כתבתי במאמר <a href="/blog/mailing-from-inside-the-system">מערכת דיוור לעסק</a>.</p>
+
+<h2 id="addresses">אילו כתובות לפתוח</h2>
+<ul>
+  <li><b>תיבה אישית לכל אדם בעסק,</b> בשם שלו.</li>
+  <li><b>כתובת לפניות כלליות,</b> שמגיעה לכל מי שמטפל בפניות.</li>
+  <li><b>כתובת לחשבונות וקבלות,</b> שאליה ספקים שולחים חשבוניות.</li>
+  <li><b>לא לפתוח עשר כתובות שאף אחד לא קורא.</b> כל כתובת צריכה מישהו שאחראי עליה.</li>
+</ul>
+
+<h2 id="mistakes">טעויות נפוצות</h2>
+<ul>
+  <li><b>דומיין רשום על שם מי שבנה את האתר.</b> העבירו אותו לבעלות העסק. על זה יש פרק במאמר <a href="/blog/replacing-erp-integrator">החלפת ספק למערכת קיימת</a>.</li>
+  <li><b>הפניה לתיבה פרטית במקום תיבה עסקית.</b> זה עובד ליום הראשון, לא לעסק שגדל.</li>
+  <li><b>חשבון מנהל אחד בלי גיבוי.</b> הגדירו לפחות שני מנהלים, ואימות דו-שלבי לכולם.</li>
+  <li><b>דילוג על SPF, DKIM ו-DMARC.</b> המיילים יוצאים, אבל חלק מהם לא מגיע.</li>
+</ul>
+<p>בהתאחדות יועצי המשכנתאות העברתי את הדואר הארגוני לתשתית Google Workspace מסודרת. אם אתם רוצים עזרה בהגדרה או במעבר, אפשר לקבוע <a href="/#contact">שיחת ייעוץ ראשונית חינם</a> של כ־20 דקות.</p>
+      </div>
+      <aside class="post-cta">
+        <p><b>רוצים לעשות את זה עם מישהו שכבר עשה את זה הרבה פעמים?</b> בשיחת ייעוץ ראשונית של כ־20 דקות, בחינם, נמפה יחד את התהליכים שמתישים אתכם ונבחר מה לשפר קודם.</p>
+        <a class="btn solid" href="#contact">לשיחת ייעוץ ראשונית חינם</a>
+      </aside>
+    </article>
+    <section class="post-faq" aria-labelledby="faqH">
+      <h2 id="faqH">שאלות נפוצות</h2>
+      <div class="faqs">
+      <details class="faq"><summary>צריך דומיין כדי לפתוח מייל עסקי?</summary><p>כן. מייל עסקי הוא כתובת בדומיין של העסק, כמו name@yourbusiness.co.il. אם עוד אין לכם דומיין, רוכשים אותו אצל רשם דומיינים, ורק אחר כך מחברים אותו לספק המייל.</p></details>
+      <details class="faq"><summary>מה זה SPF, DKIM ו-DMARC, וחייבים אותם?</summary><p>אלה רשומות בהגדרות הדומיין שמוכיחות לשרתי מייל אחרים שהמייל באמת נשלח מהעסק שלכם. לפי ההנחיות של Google לשולחים, כל שולח צריך לפחות SPF או DKIM כדי לשלוח לתיבות Gmail, ושולחים בהיקף גדול צריכים את שלושתם. Google ממליצה להגדיר את שלושתם בכל דומיין, וזה גם מה שאני ממליץ.</p></details>
+      <details class="faq"><summary>אפשר להשאיר את Gmail הפרטי ורק להוסיף כתובת עסקית?</summary><p>אפשר להפנות כתובת עסקית לתיבה פרטית, אבל זה פתרון חלקי: קשה לשלוח בצורה מסודרת מהכתובת העסקית, והמיילים של העסק נשארים בחשבון פרטי. כשיש יותר מאדם אחד בעסק, או כשהמייל הוא ערוץ מרכזי מול לקוחות, עדיף תיבה עסקית אמיתית.</p></details>
+      </div>
+    </section>
+  </main>
+  <section aria-labelledby="moreH">
+    <h2 id="moreH">עוד מאמרים</h2>
+    <div class="post-list">
+      <a class="post-card" href="/blog/wa-reader-review"><h3>WA Reader: סקירה של תוסף שמחבר את וואטסאפ ל-Claude, בקריאה בלבד</h3><p>מה WA Reader עושה, למי הוא מתאים, איך מתקינים אותו בשני צעדים, מה קורה עם הפרטיות, ומה הוא לא עושה.</p><span>לקריאה</span></a>
+      <a class="post-card" href="/blog/eitan-pdf-review"><h3>איתןPDF: סקירה של תוכנה חינמית לעבודה עם PDF בעברית, ישירות על המחשב</h3><p>מה איתןPDF יודעת לעשות, למה עברית ב-PDF היא בעיה, איך מתקינים, ומה המגבלות שכדאי להכיר לפני שמתחילים.</p><span>לקריאה</span></a>
+      <a class="post-card" href="/blog/erp-for-small-business"><h3>ERP לעסק קטן: מתי באמת צריך, מתי לא, ומה עושים בינתיים</h3><p>מתי עסק קטן באמת צריך ERP, מתי מספיקות כמה מערכות מחוברות, ואיך מתקדמים בשלבים בלי להשקיע מוקדם מדי.</p><span>לקריאה</span></a>
+    </div>
+  </section>
+  <section id="contact" aria-labelledby="contactH">
+    <div class="contact">
+      <div>
+        <p class="eyebrow">שיחת ייעוץ ראשונית, חינם</p>
+        <h2 id="contactH">רוצים שנמפה את זה יחד אצלכם?</h2>
+        <p>שיחה של כ־20 דקות, בלי עלות ובלי התחייבות. נעבור על התהליכים שחוזרים על עצמם ומתישים אתכם, ונראה מה כדאי לשפר בשינוי של התהליך ומה באוטומציה.</p>
+        <div class="me"><img src="/img/kobi-face.webp" width="96" height="96" loading="lazy" decoding="async" alt="קובי איתן"><p><b>קובי איתן</b>מומחה להטמעת דיגיטציה בעסקים.</p></div>
+        <p class="note">אפשר גם לכתוב לי בווצאפ ל־<a href="https://wa.me/972532208816?text=%D7%A9%D7%9C%D7%95%D7%9D%20%D7%A7%D7%95%D7%91%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%9E%D7%94%D7%90%D7%AA%D7%A8" target="_blank" rel="noopener">053-2208816</a> או במייל ל־<a href="mailto:kobi@eitan-m.co.il">kobi@eitan-m.co.il</a></p>
+      </div>
+      <form id="lead" data-subject="מאמר: פתיחת מייל עסקי עם דומיין משלכם: מה בוחרים, איך מגדירים, ומה לא לשכוח">
+        <label>שם<input name="name" autocomplete="name" required></label>
+        <label>עסק או ארגון <small>(לא חובה)</small><input name="org" autocomplete="organization"></label>
+        <label>טלפון<input name="phone" type="tel" inputmode="tel" autocomplete="tel" required></label>
+        <label>מייל <small>(לא חובה)</small><input name="email" type="email" autocomplete="email"></label>
+        <label>מה הייתם רוצים לשפר?<textarea name="msg" required></textarea></label>
+        <button class="btn solid" type="submit">לתיאום שיחת ייעוץ חינם</button>
+        <p class="note" id="formNote">הפנייה תישלח ישירות אליי.</p>
+        <p class="note">הפרטים משמשים רק כדי לחזור אליכם. <a href="/privacy">מדיניות פרטיות</a></p>
+      </form>
+    </div>
+  </section>
+  <footer>
+    <span>איתן | דיגיטציה ארגונית · <a href="mailto:kobi@eitan-m.co.il">kobi@eitan-m.co.il</a> · <a href="https://www.linkedin.com/in/kobi-eitan-03a4b3235" rel="me noopener" target="_blank">לינקדאין</a></span>
+    <nav aria-label="מערכות"><a href="/blog">מאמרים</a><a href="/conferences">ניהול כנסים</a><a href="/whatsapp">ווצאפ רשמי</a><a href="/eitan">מערכת איתן</a></nav>
+    <p class="legal-line">Eitan Connect הוא שירות של "איתן", עוסק מורשה, ישראל · <a href="/privacy">מדיניות פרטיות</a> · <a href="/terms">תנאי שימוש</a> · <a href="/data-deletion">מחיקת נתונים</a></p>
+    <p class="legal-line" dir="ltr" lang="en">Eitan Connect is a service of "Eitan" (איתן), a registered Israeli business (Osek Murshe) · <a href="mailto:kobi@eitan-m.co.il">kobi@eitan-m.co.il</a> · <a href="/privacy">Privacy</a> · <a href="/terms">Terms</a> · <a href="/data-deletion">Data Deletion</a></p>
+  </footer>
+</div>
+<script src="/site.js?v=2026110805"></script>
+</body>
+</html>

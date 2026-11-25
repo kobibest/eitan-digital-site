@@ -59,6 +59,7 @@ Kobi wants a full daily review of the site in Google Search. Each run:
 | `erp-for-small-business` | ERP לעסק קטן | מערכת ERP לעסקים קטנים, האם צריך ERP, מערכת ניהול לעסק קטן, חלופה ל-ERP | published 2026-11-22 |
 | `eitan-pdf-review` | עריכת PDF בעברית | תוכנה חינמית ל-PDF, עורך PDF עברית, חתימה על PDF, מיזוג קבצי PDF, איתןPDF | published 2026-11-23 |
 | `wa-reader-review` | לחבר וואטסאפ ל-Claude | וואטסאפ ו-AI, WA Reader, Claude וואטסאפ, סיכום שיחות וואטסאפ | published 2026-11-24 |
+| `business-email-setup` | פתיחת מייל עסקי | מייל עסקי עם דומיין, מייל עסקי גוגל, כתובת מייל לעסק, SPF DKIM DMARC | published 2026-11-25 |
 
 ## Search Console log
 - 2026-10-27: property verified, sitemap submitted 2026-10-24 (11 URLs, 0 indexed yet). No query data yet, the site is new.
@@ -100,3 +101,7 @@ Kobi wants a full daily review of the site in Google Search. Each run:
   - New queries: "איסוף מסמכים" pos 17 (collecting-documents), "חיובים חוזרים" pos 18, "מייל עסקי גוגל" pos 28, "שרת דואר ארגוני" pos 34 (google-workspace-email-migration).
   - Published eitan-pdf-review.
 - 2026-11-24 daily: no new GSC data (latest day still 2026-11-21): 299 impr, 0 clicks, avg pos 31.3. Sitemap: 44 submitted (eitan-pdf-review not yet counted), 0 reported indexed. 7 days: whatsapp-business-api-vs-app 14 impr pos 17.5; small-business-digitization 10 impr pos 17.9; building-an-erp-system 12 impr pos 54.8. Published wa-reader-review.
+- 2026-11-25 daily (28 days to 2026-11-24, data through 2026-11-23): FIRST CLICK: 1 click on 2026-11-22 to official-whatsapp-eitan-connect-review. 323 impr (was 299), avg pos 31.2. Sitemap: 45 submitted, 0 reported indexed.
+  - New: replacing-erp-integrator pos 2 for the long ERP-integrator question; google-workspace-email-migration 13 impr in 7 days (pos 26.8): "פתיחת מייל עסקי" 4 pos 28.3, "מייל עסקי גוגל" 2 pos 28. "ווצאפ ביזנס" pos 8 (1 impr). "חיובים חוזרים" 3 impr pos 22.
+  - 7 days: whatsapp-business-api-vs-app 17 impr pos 16.9; small-business-digitization 10 pos 18.7; building-an-erp-system 17 pos 51.6; /eitan pos 4.6.
+  - Published business-email-setup (targets "פתיחת מייל עסקי").
