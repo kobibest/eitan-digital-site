@@ -61,6 +61,7 @@ Kobi wants a full daily review of the site in Google Search. Each run:
 | `wa-reader-review` | לחבר וואטסאפ ל-Claude | וואטסאפ ו-AI, WA Reader, Claude וואטסאפ, סיכום שיחות וואטסאפ | published 2026-11-24 |
 | `business-email-setup` | פתיחת מייל עסקי | מייל עסקי עם דומיין, מייל עסקי גוגל, כתובת מייל לעסק, SPF DKIM DMARC | published 2026-11-25 |
 | `digitization-in-organizations` | דיגיטציה בארגונים | דיגיטציה ארגונית, תהליך דיגיטציה בארגון, הובלת דיגיטציה, טרנספורמציה דיגיטלית בארגון | published 2026-11-26 |
+| `website-payment-integration` | שילוב מערכות תשלום באתר | סליקה באתר, דף תשלום לאתר, חיבור סליקה למערכת, תשלום באתר וחשבונית אוטומטית | published 2026-11-27 |
 
 ## Search Console log
 - 2026-10-27: property verified, sitemap submitted 2026-10-24 (11 URLs, 0 indexed yet). No query data yet, the site is new.
@@ -109,3 +110,4 @@ Kobi wants a full daily review of the site in Google Search. Each run:
 - 2026-11-26 daily (28 days to 2026-11-25, data through 2026-11-24): 330 impr, 1 click, avg pos 31.3. Sitemap: 46 submitted, 0 reported indexed.
   - New: "דיגיטציה בארגונים" 2 impr pos 19.5 on the home page; erp-for-small-business already shows ("erp לעסקים קטנים" pos 75); "מייל עסקי" pos 17. google-workspace-email-migration 16 impr in 7 days (pos 25.4). whatsapp-business-api-vs-app 7d pos 15.5.
   - Published digitization-in-organizations.
+- 2026-11-27 daily: no new GSC days (latest still 2026-11-24); 28-day window 322 impr, 1 click, avg pos 30.7. Sitemap: 48 submitted, 0 reported indexed. "שילוב מערכות תשלום באתר" now pos 9.7 (was 15.5) on connecting-business-systems; whatsapp-business-api-vs-app 7d pos 15.5. Published website-payment-integration.
